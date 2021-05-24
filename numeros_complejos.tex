@@ -1,0 +1,116 @@
+\section{Introducción}
+
+\subsection*{Motivación}
+En estas notas, denotaremos por $\R$ el conjunto de números reales. En esta sección, procederemos de manera informal,
+para motivar la definición de un número complejo y formalizar sus propiedades, en secciones posteriores. 
+
+
+Supongamos que $a,b,c\in \R,$ y queremos resolver
+la ecuación
+$$
+ax^2+bx+c=0.
+$$
+
+De manera algebraíca encontramos que las soluciones estan dadas por la fórmula
+$$
+x=\dfrac{-b\pm \sqrt{D}}{2a}, \, D=b^2-4ac.
+$$
+
+Si $D \geq 0,$ entonces $D$ es un número real. Sin embargo, ¿qué sucede si $D<0$?. Por la \emph{ley de los signos} si
+$x,y\geq 0,$ entonces $xy\geq 0.$ De la misma manera, si $x,y<0,$ entonces $xy>0.$ En particular, para cualquier
+$x\in \R,$ tenemos que $x^{2}=x\cdot x\geq 0.$ Por lo tanto, $\sqrt{D} \notin \R$ si $D<0.$
+
+Una solución a este problema es definir el número $i=\sqrt{-1}.$ En este caso, si $D<0,$ entonces usando leyes de los
+exponentes tenemos que
+$$
+\sqrt{D}=\sqrt{(-1)(-D)}=\sqrt{-1}\sqrt{-D}=\sqrt{-D}i.
+$$
+En este caso, como $D<0,$ entonces $-D>0$ y $\sqrt{-D}\in \R.$
+
+\begin{problema}
+ Las soluciones de la ecuación $x^2+1=0$ son $x=0+i1$ y $x=0+i(-1),$ o simplemente, $x=\pm i.$
+\end{problema}
+
+\begin{problema}
+ Encuentre las soluciones de la siguientes ecuaciones:
+ \begin{enumerate}
+  \item $x^{4}+16=0,$
+  \item $x^{2}-2x+2=0.$
+ \end{enumerate}
+
+\end{problema}
+
+
+ Entonces, diremos que un número complejo es una cantidad de la forma
+ $$
+z=x+iy, \, x,y\in \R, \, i=\sqrt{-1}.
+ $$
+ Observe que si $x\in \R,$ podemos identificarlo con $x+i0.$
+
+Definimos la suma de números complejos $z=x+iy,z'=x+iy'$ de la siguiente manera:
+$$
+z+z'=(x+x')+i(y+y').
+$$
+
+\begin{problema}
+Demuestre que 
+\begin{enumerate}
+ \item $(x+iy)+(x'+iy')=(x'+iy')+(x+iy).$
+ \item $\left[ (x+iy)+(x'+iy') \right] +(x''+iy'')= (x+iy)+\left[ (x'+iy') +(x''+iy'') \right]$
+ \item $0+(x+iy)=x+iy$
+ \item $(x+iy)+((-x)+i(-y))=0$
+\end{enumerate}\end{problema}
+
+Diremos que $0=0+i0$ es el \emph{neutro aditivo} en los número complejos y que $-z:=-x-iy$ es el \emph{inverso aditivo}
+de $z=x+iy.$
+
+Ahora queremos definir la multiplicación $(x+iy)(x'+iy').$ Sigamos las reglas algebraicas usuales para números reales,
+salvo por la identidad $i^2=-1.$
+
+\begin{align*}
+(x+iy)(x'+iy')&= x(x'+iy')+iy(x'+iy')\\
+&= xx'+x(iy')+(iy)x'+(iy)(iy') \\
+&= xx' + ixy +iyx' + i^{2}yy' \\
+&= (xx'-yy')+i(xy'+yx').
+\end{align*}
+
+En resumen,
+ $$
+zz'= (xx'-yy')+i(xy'+yx') \in \C.
+ $$
+
+\begin{problema}
+Demostrar las siguientes propiedades de la multiplicación de número complejos
+\begin{enumerate}
+ \item $(x+iy)(x'+iy')=(x'+iy')(x+iy).$
+ \item $\left[ (x+iy)(x'+iy') \right] (x''+iy'')= (x+iy)\left[ (x'+iy') (x''+iy'') \right]$
+ \item $(1+i0)(x+iy)=x+iy$
+ \item $(x+iy)(x-iy)=x^2+y^2.$
+ \item $(x+iy)\left( \dfrac{x-iy}{x^2+y^2} \right)=1.$
+\end{enumerate}
+\end{problema}
+
+Diremos que $1=1+i0$ es el \emph{neutro multiplicativo} en los número complejos y que $$
+z^{-1}:=\dfrac{x-iy}{x^2+y^2} 
+$$ es el \emph{inverso multiplicativo} de $z=x+iy.$
+
+Si definimos $\bar{z}=x-iy,$ para $z=x+iy,$ podemos reescribir $$z^{-1}=\dfrac{\bar{z}}{z\bar{z}}.$$
+Diremos que $\bar{z}$ es el \emph{conjugado} de $z.$
+
+\begin{rem}
+Los número reales se pueden identificar con una línea recta. Como $i$ no se puede identificar con un número en la línea
+recta, se decía que este número era \emph{imaginario.} Sin embargo, podemos visualizar los números complejos (es decir,
+¡dibujarlos!), para lo cuál necesitaremos ``más espacio''. Como requerimos dos números reales para describir un
+complejo, tendremos que dibujarlos en el plano.
+\end{rem}
+
+\begin{problema}
+\label{exe:1.1.1}
+ Encuentre el resultado de las siguientes operaciones:
+ \begin{enumerate}
+  \item $\left( 1+i\sqrt{3} \right)\left( -1 +i\sqrt{3} \right)$
+  \item $\dfrac{\frac{1}{\sqrt{2}}+i\frac{1}{\sqrt{2}}}{\sqrt{3}+i1}$
+  \item $\left( \sqrt{2}+i\sqrt{6} \right)^{3}$
+ \end{enumerate}
+
+\end{problema}
