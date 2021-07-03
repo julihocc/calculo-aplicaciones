@@ -1,43 +1,56 @@
-% MATEMÁTICAS PARA CIENCIAS E INGENIERÍAS
 \documentclass[
 %xcolor={dvipsnames},
 %hyperref={colorlinks},
-%twoside,
+%hyperref,
+twoside,
 12pt,
-%letterpaper
+letterpaper, 
+justified
 %]{amsbook}
 ]{tufte-book}
+%]{elegantbook}
 %,graybox,envcountchap,sectrefs]{svmono}
 \input{_paquetes}
+\input{_tufte}
 \input{_comandos}
 \input{_entornos}
 \input{_md_comandos}
 \input{_md_entornos}
 \input{_trig_comandos}
+\input{_pe_comandos}
+
+
 
 \title{Fundamentos de Matemáticas Aplicadas}
-\author[Juliho Castillo]{Juliho Castillo Colmenares Ph.D.\\
-\texttt{math.vader@yahoo.com}\\
-\texttt{twitter.com/anarkomathician}\\
-\texttt{linkedin.com/in/juliho/}}
+\author[J.C. Colmenares]{Juliho Castillo Colmenares Ph.D.}
+\publisher{www.asimovian.academy\\math.vader@yahoo.com}
+
+
+\usepackage{units}
 
 \begin{document}
 	\maketitle
+	 \begin{tabular}{|p{.9\textwidth}|}
+		\hline
+		This work is licensed under the Creative Commons Reconocimiento 4.0 Internacional License. To view a copy of this license, visit
+		http://creativecommons.org/licenses/by/4.0/.
+		\begin{center}
+			\includegraphics[scale=1]{./licencia/by.png}
+		\end{center}\\
+		\hline
+	\end{tabular}
 	\tableofcontents
 
 
 \part{Precálculo}
 
+
+
 \chapter{Sistemas numéricos}
 
-\input{numeros_enteros}
-\input{numeros_racionales}
-\input{razones_proporciones}
-\input{teorema_fundamental_aritmetica}
 \input{numeros_reales}
 \input{funciones}
 \input{numeros_complejos}
-\input{plano_complejo}
 
 \chapter{Álgebra}
 
@@ -58,8 +71,6 @@
 
 \chapter{Trigonometría}
 \input{trigonometria}
-
-\chapter{Trigonometría Analítica}
 \input{trigonometria_analitica}
 
 
