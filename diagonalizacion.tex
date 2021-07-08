@@ -34,12 +34,12 @@ Primero, introducimos la matriz de manera habitual.
 \noindent
 %%%%%%%%%%%%%%%
 %%% INPUT:
-\begin{minipage}[t]{8ex}{\color{red}\bf
+\begin{minipage}{8ex}{\color{red}\bf
 \begin{verbatim}
 (%i1)
 \end{verbatim}}
 \end{minipage}
-\begin{minipage}[t]{\textwidth}{\color{blue}
+\begin{minipage}{\textwidth}{\color{blue}
 \begin{verbatim}
 A: matrix(
  [3,1,-1],
@@ -63,12 +63,12 @@ matriz.
 \noindent
 %%%%%%%%%%%%%%%
 %%% INPUT:
-\begin{minipage}[t]{8ex}{\color{red}\bf
+\begin{minipage}{8ex}{\color{red}\bf
 \begin{verbatim}
 (%i4)
 \end{verbatim}}
 \end{minipage}
-\begin{minipage}[t]{\textwidth}{\color{blue}
+\begin{minipage}{\textwidth}{\color{blue}
 \begin{verbatim}
 eigenvectors(A);
 \end{verbatim}}
@@ -84,12 +84,12 @@ eigenvectors(A);
 \noindent
 %%%%%%%%%%%%%%%
 %%% INPUT:
-\begin{minipage}[t]{8ex}{\color{red}\bf
+\begin{minipage}{8ex}{\color{red}\bf
 \begin{verbatim}
 (%i5)
 \end{verbatim}}
 \end{minipage}
-\begin{minipage}[t]{\textwidth}{\color{blue}
+\begin{minipage}{\textwidth}{\color{blue}
 \begin{verbatim}
 nondiagonalizable;
 \end{verbatim}}
@@ -132,7 +132,7 @@ Este mismo razonamiento, lo podemos aplicar a cualquier tranformación lineal $T
 una base de vectores propios para su representación matricial $A$ (en la base estandar o de hecho, en cualquier otra
 base), es decir, si $A$ es diagonalizable.
 
-% \begin{figure}[t]
+% \begin{figure}
 %  \centering
 %  \includegraphics[height=5cm,keepaspectratio=true]{./Sketch94203650.png}
 %  % Sketch94203650.png: 720x1024 pixel, 72dpi, 25.40x36.12 cm, bb=0 0 720 1024
@@ -174,12 +174,12 @@ eficientes los cálculos, usaremos \texttt{WxMaxima}.
 \noindent
 %%%%%%%%%%%%%%%
 %%% INPUT:
-\begin{minipage}[t]{8ex}{\color{red}\bf
+\begin{minipage}{8ex}{\color{red}\bf
 \begin{verbatim}
 (%i1)
 \end{verbatim}}
 \end{minipage}
-\begin{minipage}[t]{\textwidth}{\color{blue}
+\begin{minipage}{\textwidth}{\color{blue}
 \begin{verbatim}
 A: matrix(
  [3,2,4],
@@ -202,12 +202,12 @@ Después, encontramos los valores propios:
 \noindent
 %%%%%%%%%%%%%%%
 %%% INPUT:
-\begin{minipage}[t]{8ex}{\color{red}\bf
+\begin{minipage}{8ex}{\color{red}\bf
 \begin{verbatim}
 (%i2)
 \end{verbatim}}
 \end{minipage}
-\begin{minipage}[t]{\textwidth}{\color{blue}
+\begin{minipage}{\textwidth}{\color{blue}
 \begin{verbatim}
 eigenvectors(A);
 \end{verbatim}}
@@ -241,12 +241,12 @@ Introducimos esta matriz en \texttt{WxMaxima} y calculamos su inversa, a la que 
 \noindent
 %%%%%%%%%%%%%%%
 %%% INPUT:
-\begin{minipage}[t]{8ex}{\color{red}\bf
+\begin{minipage}{8ex}{\color{red}\bf
 \begin{verbatim}
 (%i5)
 \end{verbatim}}
 \end{minipage}
-\begin{minipage}[t]{\textwidth}{\color{blue}
+\begin{minipage}{\textwidth}{\color{blue}
 \begin{verbatim}
 P: matrix(
  [1,1,0],
@@ -267,12 +267,12 @@ P: matrix(
 \noindent
 %%%%%%%%%%%%%%%
 %%% INPUT:
-\begin{minipage}[t]{8ex}{\color{red}\bf
+\begin{minipage}{8ex}{\color{red}\bf
 \begin{verbatim}
 (%i6)
 \end{verbatim}}
 \end{minipage}
-\begin{minipage}[t]{\textwidth}{\color{blue}
+\begin{minipage}{\textwidth}{\color{blue}
 \begin{verbatim}
 Q:invert(P);
 \end{verbatim}}
@@ -291,12 +291,12 @@ Finalmente, realizamos el calculo $P^{-1}AP$
 \noindent
 %%%%%%%%%%%%%%%
 %%% INPUT:
-\begin{minipage}[t]{8ex}{\color{red}\bf
+\begin{minipage}{8ex}{\color{red}\bf
 \begin{verbatim}
 (%i7)
 \end{verbatim}}
 \end{minipage}
-\begin{minipage}[t]{\textwidth}{\color{blue}
+\begin{minipage}{\textwidth}{\color{blue}
 \begin{verbatim}
 Q.A.P;
 \end{verbatim}}
