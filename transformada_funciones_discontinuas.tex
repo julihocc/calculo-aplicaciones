@@ -2,46 +2,44 @@
 
 \subsection{Convoluci\'on}
 
-
-	\subsection{Convoluci\'on}
 	La convoluci\'on de dos funciones $f(x)$ y $g(x)$ se define como
-	\begin{equation}
+	\[
 	\label{bron:23.1}
 	f(x)\ast g(x)=\int_{0}^{x}f(t)g(x-t)dt.
-	\end{equation}
+	\]
 	
 
 
 
-	\begin{thm}
+	\begin{teorema}
 		\label{bron:thm:23.1}
-		\begin{align}
+		\begin{align*}
 		f(x) \ast g(x)&=g(x) \ast f(x)\\
 		f(x) \ast \left( g(x)+h(x) \right)
 		&= f(x)\ast g(x)+ f(x)\ast h(x).
-		\end{align}
+		\end{align*}
 		
-	\end{thm}
+	\end{teorema}
 	
 
 
 
-	\begin{thm}[Teorema de Convoluci\'on]
+	\begin{teorema}[Teorema de Convoluci\'on]
 		Si $\lap{f(x)}=F(s)$ y $\lap{g(x)}=G(s),$ entonces
 		$$
 		\lap{f(x) \ast g(x)}=F(s)G(s).
 		$$
-	\end{thm}
+	\end{teorema}
 	
 
 
 
 
 	De los teoremas anteriores, obtenemos
-	\begin{equation}
+	\[
 	\label{bron:23.2}
 	\lapin{F(s)G(s)}=f(x) \ast g(x)= g(x) \ast f(x).
-	\end{equation}
+	\]
 	
 
 
@@ -79,12 +77,12 @@
 
 
 
-	\begin{thm}
+	\begin{teorema}
 		\label{bron:thm:23.3}
 		$$
 		\lap{u(x-c)}=\dfrac{1}{s}e^{-cs}.
 		$$
-	\end{thm}
+	\end{teorema}
 
 
 \subsection{Traslaciones}
@@ -111,7 +109,7 @@
 
 
 
-	\begin{thm}
+	\begin{teorema}
 		\label{bron:thm:23.4}
 		Si $F(s)=\lap{f(x)},$ entonces
 		$$
@@ -120,7 +118,7 @@
 		
 		De manera inversa
 		$$\lapin{e^{-cs}F(s)}=u(x-c)f(x-c).$$
-	\end{thm}
+	\end{teorema}
 	
 
 

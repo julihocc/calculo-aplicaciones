@@ -29,15 +29,15 @@
 
 
 	\subsection{Linealidad}
-	\begin{prop}
+	\begin{proposicion}
 		\label{suma:linealidad}
-		\begin{align}
+		\begin{align*}
 			\sum_{i=a}^{b} cf(i)&=c \sum_{i=a}^{b} f(i)\\ 
 			\sum_{i=a}^{b} f(i)+g(i)&= \sum_{i=a}^{b} f(i)
 			+\sum_{i=a}^{b} g(i)
-		\end{align}
+		\end{align*}
 		
-	\end{prop}
+	\end{proposicion}
 	
 
 
@@ -60,7 +60,7 @@
 
 
 
-	\begin{alg}[Sumas de Riemman]
+	\begin{algoritmo}{Sumas de Riemman}
 		\label{suma:riemann}
 		\begin{enumerate}
 			\item Dividimos el intervalo en $N$ subintervalos
@@ -72,7 +72,7 @@
 			$$\sum_{i=1}^{N} f(\xi_{i})\del x_{i},$$
 			donde $\xi_{i}$ es un punto en el intervalo $[x_{i},x_{i+1}].$
 		\end{enumerate}
-	\end{alg}
+	\end{algoritmo}
 
 
 
@@ -127,7 +127,7 @@
 
 
 
-	\begin{defn}
+	\begin{definicion}
 		\begin{enumerate}
 			\item   La integral definida de $f$ en el intervalo $[a,b]$ está dada por por
 			$$
@@ -141,7 +141,7 @@
 			\item 
 			La suma está definida como en el algoritmo \ref{suma:riemann} y se conoce como \emph{suma de Riemman.}
 		\end{enumerate}
-	\end{defn}
+	\end{definicion}
 	
 
 
@@ -172,7 +172,7 @@
 
 
 
-	\begin{prop}
+	\begin{proposicion}
 		\begin{align}
 			\label{ayr:23.2.1}
 			\int_{a}^{b}1dx&=b-a\\ 
@@ -180,7 +180,7 @@
 			\int_{a}^{b}xdx&=\dfrac{b^{2}}{2}-\dfrac{a^{2}}{2}
 		\end{align}
 		
-	\end{prop}
+	\end{proposicion}
 	
 
 
@@ -243,7 +243,7 @@
 
 	\begin{problema}
 		Supongamos que $f$ y $g$ son integrables en $[a,b].$ Demostrar que:
-		\begin{enumerate}[(a)]
+		\begin{enumerate}
 			\item Si $f(x)\geq 0$ en $[a,b],$ entonces $\int_{a}^{b}f(x)dx\geq 0.$
 			\item Si $f(x) \leq g(x)$ en $[a,b],$ entonces
 			$$

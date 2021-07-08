@@ -295,30 +295,37 @@
 	
 
 
-[fragile]
-	{Implentación iterativa de \emph{Fibonacci} en \texttt{Python}}
-	\begin{verbatim}
-		def fibIter(n):
-		if n < 2:
+\begin{lstlisting}[language=Python, caption=Implentación iterativa de \emph{Fibonacci} en \texttt{Python}]		
+def fibIter(n):
+	if n < 2:
 		return n
-		fibPrev = 1
-		fib = 1
-		for num in xrange(2, n):
+	fibPrev = 1
+	fib = 1
+	for num in xrange(2, n):
 		fibPrev, fib = fib, fib + fibPrev
-		return fib
-	\end{verbatim} 
+	return fib
+\end{lstlisting}
+	
+%\begin{lstlisting}
+%def fibIter(n):
+%	if n < 2:
+%		return n
+%	fibPrev = 1
+%	fib = 1
+%	for num in xrange(2, n):
+%		fibPrev, fib = fib, fib + fibPrev
+%	return fib
+%\end{lstlisting}
 
-
-[fragile]
-	{Implentación recursiva de \emph{Fibonacci} en \texttt{Python}}
-	\begin{verbatim}
-		def fibRec(n):
-		if n < 2:
+\begin{lstlisting}[language=Python, caption=Implentación recursiva de \emph{Fibonacci} en \texttt{Python}]
+def fibRec(n):
+	if n < 2:
 		return n
-		else:
+	else:
 		return fibRec(n-1) + fibRec(n-2)
-	\end{verbatim}
-	Para más implementaciones, visite \href{http://rosettacode.org/wiki/Fibonacci\_sequence}{rosettacode.org/wiki/Fibonacci\_sequence}
+\end{lstlisting}
+
+Para más implementaciones, visita \href{http://rosettacode.org/wiki/Fibonacci\_sequence}{Rosetta Code.}
 
 
 \subsection{La función de Ackermann}
@@ -351,18 +358,17 @@
 	
 
 
-[fragile]
-	{Implentación recursiva de \emph{Ackermann} en \texttt{Python}}
-	\begin{verbatim}
-		def ack2(M, N):
-		if M == 0:
+\begin{lstlisting}[caption=python, caption=Implentación recursiva de \emph{Ackermann} en \texttt{Python}]
+def ack2(M, N):
+	if M == 0:
 		return N + 1
-		elif N == 0:
+	elif N == 0:
 		return ack2(M - 1, 1)
-		else:
+	else:
 		return ack2(M - 1, ack2(M, N - 1))
-	\end{verbatim}
-	Para más implementaciones, visite \href{http://rosettacode.org/wiki/Ackermann\_function}{rosettacode.org/wiki/Ackermann\_function}
+\end{lstlisting}
+
+Para más implementaciones, visite \href{http://rosettacode.org/wiki/Ackermann\_function}{Rosetta Code.}
 
 
 \subsection{Ejemplos Resueltos}

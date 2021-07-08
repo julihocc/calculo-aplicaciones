@@ -96,12 +96,12 @@ $$ es el \emph{inverso multiplicativo} de $z=x+iy.$
 Si definimos $\bar{z}=x-iy,$ para $z=x+iy,$ podemos reescribir $$z^{-1}=\dfrac{\bar{z}}{z\bar{z}}.$$
 Diremos que $\bar{z}$ es el \emph{conjugado} de $z.$
 
-\begin{rem}
+\begin{observacion}
 Los número reales se pueden identificar con una línea recta. Como $i$ no se puede identificar con un número en la línea
 recta, se decía que este número era \emph{imaginario.} Sin embargo, podemos visualizar los números complejos (es decir,
 ¡dibujarlos!), para lo cuál necesitaremos ``más espacio''. Como requerimos dos números reales para describir un
 complejo, tendremos que dibujarlos en el plano.
-\end{rem}
+\end{observacion}
 
 \begin{problema}
 \label{exe:1.1.1}
@@ -116,18 +116,18 @@ complejo, tendremos que dibujarlos en el plano.
 
 \subsection{Estructura algebraica de $\C$}
 
-\begin{defn}El \emph{plano} es el conjunto
+\begin{definicion}El \emph{plano} es el conjunto
 	$$
 	\R^{2}=\set{(x,y)|x,y\in \R },
 	$$
 	de parejas ordenadas de números reales.
-\end{defn}
+\end{definicion}
 
 En este espacio, podemos definir varias operaciones. Cuando al conjunto lo dotamos de ciertas operaciones, decimos que
 es un \emph{estructura (matemática)} en el plano. Una de las más importantes es la estructura de \emph{espacio
 	vectorial,} que a continuación presentamos.
 
-\begin{defn} El \emph{plano euclideano} es $\R^{2}$ dotado de las siguiente operaciones:
+\begin{definicion} El \emph{plano euclideano} es $\R^{2}$ dotado de las siguiente operaciones:
 	\begin{enumerate}
 		\item 
 		$
@@ -138,14 +138,14 @@ es un \emph{estructura (matemática)} en el plano. Una de las más importantes e
 		\a\cdot(x,y)=(\a x,\a y),
 		$
 	\end{enumerate}
-\end{defn}
+\end{definicion}
 
-\begin{rem}
+\begin{observacion}
 	En este caso, a los pares ordenados $(x,y)\in \R^{2}$ les llamaremos \emph{vectores (en el plano)}, mientras que a los
 	números reales los llamaremos \emph{escalares.} Entonces, nos referiremos a la primera operación como \emph{suma de
 		vectores,} mientras que a la segunda como \emph{multiplicación por escalares.} Estas son las operaciones \emph{usuales}
 	en el plano euclideano.
-\end{rem}
+\end{observacion}
 
 
 \begin{problema}
@@ -162,7 +162,7 @@ podríamos identificar $x+iy$ con el vector $(x,y).$ Observe que con esta identi
 números complejos coincide con la de vectores. De igual manera, podemos identificar la multiplicación entre número
 complejo. Esto nos lleva a la definición formal de \emph{números complejos.}
 
-\begin{defn}
+\begin{definicion}
 	El \emph{campo} de número complejos $\C$ es el conjunto $\R^{2}$ dotado de las siguientes operaciones:
 	\begin{enumerate}
 		\item
@@ -174,7 +174,7 @@ complejo. Esto nos lleva a la definición formal de \emph{números complejos.}
 		(x,y)(x',y')=(xx'-yy',xy'+yx').
 		$
 	\end{enumerate}
-\end{defn}
+\end{definicion}
 
 
 Si identificamos $\a \in \R,$ con $(a,0) \in \C,$ resulta que la multiplicación por escalares coindice con la
@@ -206,11 +206,11 @@ $$
 	
 \end{problema}
 
-\begin{rem}
+\begin{observacion}
 	Cualquier conjunto $S,$ con operaciones suma y multiplicación, que cumplan las propiedades anteriores, se conoce como
 	un \emph{campo.} Otros ejemplos de campos son las fracciones y los mismos números reales. En teoría número, ejemplos de
 	campos son los enteros \emph{módulo} $p$ $\mathbb{Z}_{p},$ con $p$ un número primo.
-\end{rem}
+\end{observacion}
 
 \subsection{Forma polar de los números complejos}
 
@@ -218,26 +218,26 @@ En la presente sección, suponemos que el lector tiene conocimientos elementales
 
 Como los números complejos son vectores, podemos calculas su longitud o \emph{norma.}
 
-\begin{defn}
+\begin{definicion}
 	Si $z=x+iy\in \C,$ entonces la norma de $z$ se define como
 	$$
 	\norm{z}=\sqrt{x^{2}+y^{2}}.
 	$$
-\end{defn}
+\end{definicion}
 
 Como hicimos antes, definimos de manera formal el \emph{conjugado} de un número complejo.
-\begin{defn}
+\begin{definicion}
 	Si $z=(x,y)\in \C,$ su \emph{conjugado} esta dado por
 	$$
 	\bar{z}=(x,-y)\in \C.
 	$$
-\end{defn}
+\end{definicion}
 
 De manera que $\norm{z}^{2}=z\bar{z}.$
 
 De la misma manera, siendo un vector podemos medir el ángulo que abre respecto al vector $(1,0)$, en el sentido de las
 manecillas del reloj, al cual llamaremos \emph{argumento} y definimos analíticamente de la siguiente forma.
-\begin{defn}
+\begin{definicion}
 	El argumento $\theta(z)$ de $z=x+iy\in \C$ se define como
 	\begin{enumerate}
 		\item $\arctan\left( \dfrac{y}{x} \right)$ si $x>0$
@@ -246,9 +246,9 @@ manecillas del reloj, al cual llamaremos \emph{argumento} y definimos analítica
 		\item $-\dfrac{\pi}{2}$ si $x=0, y< 0$
 	\end{enumerate}
 	
-\end{defn}
+\end{definicion}
 
-\begin{defn}
+\begin{definicion}
 	Si $z\in \C$ tiene norma $r>0$ y argumento $\th,$ decimos que $$
 	z=r\arg{\th},
 	$$
@@ -256,7 +256,7 @@ manecillas del reloj, al cual llamaremos \emph{argumento} y definimos analítica
 	$$
 	\arg{\th}=\, \left( \cos(\th), \sin (\th) \right).
 	$$
-\end{defn}
+\end{definicion}
 
 \begin{problema}
 	Demostrar que

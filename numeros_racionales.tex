@@ -22,13 +22,13 @@ ad=bc
 
 
 
-	\begin{defn}
+	\begin{definicion}
 		\label{rat:equiv}
 		Dos números racionales $\dfrac{a}{b},\dfrac{c}{d}$ son equivalentes si
 		$$
 		ad-bc=0.
 		$$
-	\end{defn}
+	\end{definicion}
 
 %%%%%%%%%%%%%%%%%%%%%
 {}
@@ -45,7 +45,7 @@ ad=bc
 \subsection{Simplificaci\'on}
 
  
-	\begin{defn}
+	\begin{definicion}
 		\begin{enumerate}
 			\item Diremos que dos enteros $p,q\in \Z$ son primos relativos si $\texttt{mcd}(p,q)=1.$ 
 			\item Diremos que $\dfrac{p}{q}\in \Q$ es la forma \emph{irreducible} de $\dfrac{a}{b}\in \Q$ si 
@@ -56,7 +56,7 @@ ad=bc
 			
 		\end{enumerate}
 		
-	\end{defn}
+	\end{definicion}
 	
 
 
@@ -75,37 +75,37 @@ ad=bc
 
 % 
 % 
-%  \begin{defn}
+%  \begin{definicion}
 %   Diremos que la forma irreducible de una fracci\'on $\dfrac{a}{b}$ es $\dfrac{p}{q}$ si
 %   \begin{itemize}
 %    \item $$\dfrac{a}{b}=\dfrac{p}{q},$$ pero
 %    \item $p,q$ son primos relativos.
 %   \end{itemize}
 % 
-%  \end{defn}
+%  \end{definicion}
 % 
 % 
 
 
-	\begin{rem}
+	\begin{observacion}
 		Sean $a,b$ dos enteros positivos.
 		Si $d=\texttt{mcd}(a,b)$ y $$a=d\cdot p, \, b=d\cdot q,$$ entonces podemos simplificar de la siguiente manera
 		$$
 		\dfrac{a}{b}=\dfrac{d\cdot p}{d \cdot q}=\dfrac{p}{q}.
 		$$
-	\end{rem}
+	\end{observacion}
 
 
 
 
-	\begin{rem}
+	\begin{observacion}
 		Si $d$ es el máximo común divisor de los enteros $a,b\neq 0,$ entonces tenemos que $p,q$ son los cocientes en las operaciones
 		$$\begin{cases}
 			a=d\cdot p \\
 			b=d\cdot q
 		\end{cases}
 		$$
-	\end{rem}
+	\end{observacion}
 	
 
 
@@ -148,7 +148,7 @@ ad=bc
 
 
 
-	\begin{alg}[Conversi\'on a común denominador]
+	\begin{algoritmo}{Conversi\'on a común denominador}
 		Para convertir dos fracciones $\frac{a}{b}, \frac{c}{d}$ a común denominador:
 		\begin{enumerate}
 			\item Encuentre $m=\texttt{mcm}(b,d)$
@@ -162,17 +162,17 @@ ad=bc
 			$$
 		\end{enumerate}
 		
-	\end{alg}
+	\end{algoritmo}
 	
 
 
 
-	\begin{rem}
+	\begin{observacion}
 		Si el común demoninador $m$ de dos fracciones $$\dfrac{x}{m}, \dfrac{y}{m}$$ es positivo, entonces
 		$$
 		\dfrac{x}{m} < \frac{y}{m} \iff x < y.
 		$$
-	\end{rem}
+	\end{observacion}
 	
 
 
@@ -193,7 +193,7 @@ ad=bc
 \subsection{Operaciones}
 
 
-	\begin{alg}[Suma de fracciones]
+	\begin{algoritmo}{Suma de fracciones}
 		Para sumar dos fracciones $\frac{a}{b}, \, \frac{c}{d}:$
 		\begin{enumerate}
 			\item Convierta a común denominador, de manera que
@@ -205,17 +205,17 @@ ad=bc
 			\item simplifique.
 		\end{enumerate}
 		
-	\end{alg}
+	\end{algoritmo}
 	
 
 
 
 
 	%  La suma entre dos números racionales se define como
-	%  \begin{equation}
+	%  \[
 	%   \label{rat:sum}
 	%   \dfrac{a}{b}+\dfrac{c}{d}=\dfrac{ad+bc}{bc}.
-	%  \end{equation}
+	%  \]
 	% 
 	\begin{problema}
 		$$
@@ -226,24 +226,24 @@ ad=bc
 
 
 
-	\begin{rem}
+	\begin{observacion}
 		Cualquier suma se puede reescribir como una resta:
 		$$x+y=x-\left( -y \right),$$ 
 		y viceversa
 		$$x-y=x+\left( -y \right).$$ 
 		
 		Por esta raz\'on, en álgebra, no es muy útil distinguir entre estas dos operaciones. Utilizaremos el mismo algoritmo, para encontrar la resta de dos fracciones. 
-	\end{rem}
+	\end{observacion}
 	
 
 
 
 
 	%  La resta entre dos números racionales se define como
-	%  \begin{equation}
+	%  \[
 	%   \label{rat:rest}
 	%   \dfrac{a}{b}-\dfrac{c}{d}=\dfrac{ad-bc}{bc}.
-	%  \end{equation}
+	%  \]
 	% 
 	\begin{problema}
 		$$
@@ -271,9 +271,9 @@ ad=bc
 
 	
 	La multiplicaci\'on entre dos números racionales se define como
-	\begin{equation}
+	\[
 		\dfrac{a}{b}\cdot\dfrac{c}{d}=\dfrac{a\cdot c}{b\cdot d}.
-	\end{equation}
+	\]
 	
 	\begin{problema}
 		$\dfrac{2}{3}\cdot \dfrac{4}{5}=\dfrac{2\cdot 4}{3\cdot 5}=\dfrac{8}{15}.$
@@ -283,12 +283,12 @@ ad=bc
 
 
 
-	\begin{rem}
+	\begin{observacion}
 		En ocasiones, la divisi\'on de fracciones se conoce como regla del ``sandwich'':
 		$$
 		\dfrac{\left( \dfrac{a}{b} \right)}{\left( \dfrac{c}{d} \right)}=\dfrac{a}{b}\div \dfrac{c}{d}=\dfrac{a\cdot d}{b \cdot c}
 		$$
-	\end{rem}
+	\end{observacion}
 	
 
 
@@ -296,9 +296,9 @@ ad=bc
 
 	
 	La divisi\'on entre dos números racionales se define como
-	\begin{equation}
+	\[
 		\dfrac{a}{b}\div\dfrac{c}{d}=\dfrac{a\cdot d}{b\cdot c}.
-	\end{equation}
+	\]
 	siempre y cuando $c\neq 0.$
 	 
 	

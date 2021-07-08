@@ -27,19 +27,19 @@ Los números enteros siempre se pueden escribir como una multiplicación de núm
 
 %%%%%%%%%%%%%%%%%%%%%
 {Teorema Fundamental de la Aritmética}
-\begin{thm}
+\begin{teorema}
 	Todo número entero $a$ mayor que $1$ se puede expresar en la forma
-	\begin{align}
+	\begin{align*}
 		\label{factorizacion_prima}
 		\tag{FP}
 		a=p_{1}^{n_{1}}p_{2}^{n_{2}}\cdots p_{L}^{n_{L}}
-	\end{align}
+	\end{align*}
 	donde $p_{i}, i=1,...,L$ son números primos distintos y $n_{i}, i=1,...,L$ son exponentes enteros positivos. 
-\end{thm}
+\end{teorema}
 
-\begin{rem}
+\begin{observacion}
 	La expresión \ref{factorizacion_prima} se conoce como \emph{factorización prima} del entero $a$ y es única excepto por el orden.
-\end{rem}
+\end{observacion}
 
 %%%%%%%%%%%%%%%%%%%%%
 {}
@@ -52,14 +52,14 @@ Encuentre la factorización prima de
 
 %%%%%%%%%%%%%%%%%%%%%
 {}
-\begin{prop}
+\begin{proposicion}
 	Si $a=p_{1}^{n_{1}}p_{2}^{n_{2}}\cdots p_{L}^{n_{L}}$ y $b=p_{1}^{m_{1}}p_{2}^{m_{2}}\cdots p_{L}^{m_{L}}$ son respectivas factorizaciones primas de los enteros $a,b$, entonces
 	\begin{align*}
 		\mcd(a,b) &= p_{1}^{r_{1}}p_{2}^{r_{2}}\cdots p_{L}^{r_{L}}\\
 		\mcm(a,b) &= p_{1}^{R_{1}}p_{2}^{R_{2}}\cdots p_{L}^{R_{L}}
 \end{align*}
 donde $r_{i}=\min(n_{i},m_{i})$ y $R_{i}=\max(n_{i},m_{i}).$
-\end{prop}
+\end{proposicion}
 
 
 %%%%%%%%%%%%%%%%%%%%%
@@ -73,18 +73,18 @@ Encuentre
 
 %%%%%%%%%%%%%%%%%%%%%
 {}
-	\begin{prop}
+	\begin{proposicion}
 		Si $p_{1}^{n_{1}}p_{2}^{n_{2}}\cdots p_{L}^{n_{L}}$ es la factorización prima de $a$, entonces $a$ tiene \begin{align*}
 			\left( n_{1}+1 \right)\left( n_{2}+1 \right)\cdots\left( n_{L}+1 \right)
 		\end{align*} divisores positivos.
 		
-	\end{prop}
+	\end{proposicion}
 	
 
 %%%%%%%%%%%%%%%%%%%%%% 
 
 
-	\begin{alg}[Como encontrar todos los divisores de un número entero]
+	\begin{algoritmo}{Como encontrar todos los divisores de un número entero}
 		\begin{enumerate}
 			\item Factorice el número entero
 			$n=p_{1}^{R_{1}}\cdots p_{m}^{R_{m}}$
@@ -93,7 +93,7 @@ Encuentre
 			con $0\leq r_{1}\leq R_{1},...,0\leq r_{m}\leq R_{m}$
 			\item Enliste cada posible número entero de la forma $$\pm p_{1}^{r_{1}}\cdots p_{m}^{r_{m}},$$ para cada elemento $\left( r_{1},...,r_{m} \right)$ de la lista anterior.
 		\end{enumerate}
-	\end{alg}
+	\end{algoritmo}
 	
 
 

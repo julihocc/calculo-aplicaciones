@@ -23,7 +23,7 @@ De manera similar,  la derivada parcial de $f(x,y)$ respecto de $y$ se denota po
 
 
 \subsection{Algunas propiedades y f\'ormulas}
-\begin{prop} Sean $u(x,y),v(x,y)$ funciones de dos variables y $h(y)$ una funci\'on que no depende de $x.$
+\begin{proposicion} Sean $u(x,y),v(x,y)$ funciones de dos variables y $h(y)$ una funci\'on que no depende de $x.$
 	\begin{enumerate}
 		\item $\p_{x}h(y)=0;$
 		\item $\p_{x}\left( h(y)u \right)=h(y)\p_{x}u;$
@@ -34,14 +34,14 @@ De manera similar,  la derivada parcial de $f(x,y)$ respecto de $y$ se denota po
 		\item $\p_{x}\ln(u)=\frac{\p_{x}u}{u}.$
 	\end{enumerate}
 	
-\end{prop}
+\end{proposicion}
 
 
 
 
-\begin{rem}
+\begin{observacion}
 	Las reglas siguen valiendo si: cambiamos $\p_{x}$ por $\p_y$ y $h$ no depende de $y.$
-\end{rem}
+\end{observacion}
 
 
 
@@ -164,7 +164,7 @@ Puede verificar sus resultados con este \href{http://sagecell.sagemath.org/?z=eJ
 \subsection{Clasificaci\'on de Puntos Cr\'iticos}
 
 
-\begin{defn}[Extremos relativos]
+\begin{definicion}[Extremos relativos]
 	Diremos la función f(x,y)
 	tiene un \emph{máximo relativo} en $(x_{0},y_{0})$ si $$f\left( x_{0},y_{0} \right) \geq f(x,y)$$ 
 	para todo $(x,y)$ suficientemente cercano a $(x_{0},y_{0}).$ 
@@ -173,7 +173,7 @@ Puede verificar sus resultados con este \href{http://sagecell.sagemath.org/?z=eJ
 	tiene un \emph{m\'inimo relativo} en $(x_{0},y_{0})$ si $$f\left( x_{0},y_{0} \right) \leq f(x,y)$$ 
 	para todo $(x,y)$ suficientemente cercano a $(x_{0},y_{0}).$ 
 	
-\end{defn}
+\end{definicion}
 
 
 
@@ -218,12 +218,12 @@ Puede generar este mapa topográfico con el siguiente c\'odigo \href{http://sage
 
 
 
-\begin{defn}[Puntos cr\'iticos]
+\begin{definicion}[Puntos cr\'iticos]
 	Un punto $(x_{0},y_{0})$ es un \emph{punto cr\'itico} de $f(x,y)$ si
 	$$
 	\p_{x}f(x_{0},y_{0})=0, \ \p_{y}f(x_{0},y_{0})=0.
 	$$
-\end{defn}
+\end{definicion}
 
 Todos los extremos relativos son puntos cr\'iticos...
 
@@ -258,14 +258,14 @@ Diremos que un punto cr\'itico que no es extremo local es un punto de silla.
 
 \href{http://sagecell.sagemath.org/?z=eJyr0KlUsFUoSyzSUK_QqVTX5OVK0wAyNG0r4ox0K-OMeLmS8_NK8kuL4gty8ks0IJI6CkBKQddQR8EQxK5EsJNzEwts1YMLUpNLihJz4ovUgUL5OflFSYlFtiFFpamaAAuqIOc=&lang=sage}{http://sagecell.sagemath.org/?q=mjknwh}
 
-\begin{rem}
+\begin{observacion}
 	$(0,0)$ es punto de silla de $f(x,y)=x^2-y^2.$
-\end{rem}
+\end{observacion}
 
 
 
 
-\begin{defn}[Segundas derivadas] Las derivadas parciales de segundo orden de $f(x,y)$ son
+\begin{definicion}[Segundas derivadas] Las derivadas parciales de segundo orden de $f(x,y)$ son
 	\begin{itemize}
 		\item $\p_{xx}f(x,y)=\p_{x}\left( \p_{x} f(x,y) \right)=f_{xx}(x,y)$
 		\item $\p_{xy}f(x,y)=\p_{x}\left( \p_{y} f(x,y) \right)=f_{yx}(x,y)$
@@ -273,16 +273,16 @@ Diremos que un punto cr\'itico que no es extremo local es un punto de silla.
 		\item $\p_{yy}f(x,y)=\p_{y}\left( \p_{y} f(x,y) \right)=f_{yy}(x,y)$
 	\end{itemize}
 	
-\end{defn}
+\end{definicion}
 
 
 
 \subsection{Hessiano de una funci\'on}
-\begin{equation}
+\[
 	\label{hess}  
 	\operatorname{Hess}f(x,y)=
 	\begin{pmatrix}\p_{xx}f(x,y) &\p_{yx}f(x,y) \cr \p_{xy}f(x,y) & \p_{yy}f(x,y) \end{pmatrix}
-\end{equation}
+\]
 
 
 
@@ -295,7 +295,7 @@ $$
 
 
 
-\begin{rem}
+\begin{observacion}
 	Si las derivadas parciales mixtas $\p_{xy}f(x,y), \ \p_{yx}f(x,y)$ existen y son continuas, entonces
 	$$
 	\p_{xy}f(x,y)=\p_{yx}f(x,y),
@@ -304,12 +304,12 @@ $$
 	$$
 	D(x,y)=\p_{xx}f(x,y)\p_{yy}f(x,y)-\left( \p_{xy}f(x,y) \right)^{2}.
 	$$
-\end{rem}
+\end{observacion}
 
 
 
 
-\begin{thm}[Clasificaci\'on de puntos cr\'iticos]
+\begin{teorema}[Clasificaci\'on de puntos cr\'iticos]
 	Supongamos que todas las derivas de primer y segundo orden de $f(x,y)$ existe y que $(x_{0},y_{0})$ es un punto cr\'itico de $f(x,y).$ Entonces
 	\begin{itemize}
 		\item Si $D(x_{0},y_{0}) < 0,$ entonces $(x_{0},y_{0})$ es un \emph{punto de silla}.
@@ -317,11 +317,11 @@ $$
 		\item Si $D(x_{0},y_{0}) > 0$ y $\p_{xx}f(x_{0},y_{0})<0,$ entonces $(x_{0},y_{0})$ es un \emph{máximo relativo}.
 	\end{itemize}
 	
-\end{thm}
+\end{teorema}
 
-\begin{rem}
+\begin{observacion}
 	Si $D(x_{0},y_{0}) = 0,$ la informaci\'on no es concluyente.
-\end{rem}
+\end{observacion}
 
 
 

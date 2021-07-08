@@ -11,7 +11,7 @@ La l\'inea alrededor del cuál se realiza la rotaci\'on se llama \emph{eje de re
 
 
 Sea $f$ una funci\'on continua tal que $f(x)\geq 0$ para $a\leq x \leq b.$ Considere la regi\'on $\reg$ bajo la gráfica de $f,$ arriba del eje $x,$ entre $x=a$ y $x=b:$
-\begin{figure}[h]
+\begin{figure}
  \centering
  \includegraphics[height=3cm,keepaspectratio=true]{./calculo/fig3001.png}
  % fig3001.png: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
@@ -28,9 +28,9 @@ Sea $f$ una funci\'on continua tal que $f(x)\geq 0$ para $a\leq x \leq b.$ Consi
 
 
 
-\begin{rem}
+\begin{observacion}
  A partir de ahora, usaremos el sistema algebráico de computo \texttt{SageMath,} para visualizar las gráficas. 
-\end{rem}
+\end{observacion}
 
 
 
@@ -46,7 +46,7 @@ graf.show()
 
 
 
-\begin{figure}[h]
+\begin{figure}
  \centering
  \includegraphics[height=5cm,keepaspectratio=true]{./calculo/sage0501.png}
  % sage0501.png: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
@@ -74,7 +74,7 @@ sur2=revolution_plot3d(parabola,(x,0,1),
 
 
 
-\begin{figure}[h]
+\begin{figure}
  \centering
  \includegraphics[height=5cm]{./calculo/sage0502.png}
  % sage0502.png: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
@@ -87,11 +87,11 @@ sur2=revolution_plot3d(parabola,(x,0,1),
 \subsection{F\'ormula del Disco}
 
 El volumen $V$ de un s\'olido de revoluci\'on obtenido al rotar una regi\'on $\reg$ alrededor del eje $x$ está dado por
-\begin{equation}
+\[
  \label{disk:formula}
  \tag{F\'ormula del Disco}
  V= \pi \int_{a}^{b}\left( f(x) \right)^{2}dx
-\end{equation}
+\]
 
 
 
@@ -107,11 +107,11 @@ El volumen $V$ de un s\'olido de revoluci\'on obtenido al rotar una regi\'on $\r
 \end{wrapfigure} 
 
 De manera similar, la f\'ormula para una regi\'on como acotada por la gráfica $x=g(y)$ está dada por 
-\begin{equation}
+\[
  \label{disk:formula:2}
  \tag{F\'ormula del Disco (II)}
  V= \pi \int_{c}^{d}\left( g(y) \right)^{2}dy
-\end{equation}
+\]
 
 
 
@@ -156,21 +156,21 @@ De manera similar, la f\'ormula para una regi\'on como acotada por la gráfica $
 Supongamos que $0\leq g(x) \leq f(x)$ para $a\leq x \leq b.$ Consideremos la regi\'on acotada por $x=a,$ $x=b,$ y las curvas $y=g(x)$ y $y=f(x).$ 
 
 Entonces el volumen $V$ del s\'olido de revoluci\'on generado por esta regi\'on rotando alrededor del eje $x$ está dado por 
-\begin{equation}
+\[
  \label{washer}
  \tag{Washer}
  V=\pi\int_{a}^{b}\left( (f(x))^{2}-(g(x))^{2} \right)dx
-\end{equation}
+\]
 
 
 
 
 Una f\'ormula similar
-\begin{equation}
+\[
  \label{washer:2}
  \tag{Washer (II)}
  V=\pi\int_{c}^{d}\left( (f(y))^{2}-(g(y))^{2} \right)dy
-\end{equation}
+\]
 se satisface cuando la regi\'on esta acotada por las curvas $x=f(y),$ $x=g(y)$ y las rectas $y=c,\; y=d,$ siempre y cuando $0\leq g(y) \leq f(y)$ para $c\leq y \leq d$ y se rota tal regi\'on alrededor del eje $y.$
 
 
@@ -185,7 +185,7 @@ Encuentre el volumen por \eqref{washer}.
 
 
 
-\begin{figure}[h]
+\begin{figure}
  \centering
  \includegraphics[height=5cm]{./calculo/sage0503.png}
  % sage0503.png: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
@@ -196,7 +196,7 @@ Encuentre el volumen por \eqref{washer}.
 
 
 
-\begin{figure}[h]
+\begin{figure}
  \centering
  \includegraphics[height=7cm]{./calculo/sage0504.png}
  % sage0503.png: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
@@ -219,21 +219,21 @@ Encuentre el volumen por \eqref{washer}.
 Consideremos el s\'olido de revoluci\'on obtenido al rotar alrededor del eje $y$ la regi\'on $\reg$ en el primer cuadrante entre el eje $x$ y la curva $y=f(x),$ entre $x=a$ y $x=b.$ 
 
 Entonces el volumen del s\'olido está dado por la f\'ormual de capas cil\'indricas
-\begin{equation}
+\[
  \label{FCC}
  \tag{FCC}
  V=2\pi \int_{a}^{b}xf(x)dx
-\end{equation}
+\]
 
 
 
 
 Una f\'ormula similar se satisface cuando se intercambian $x$ y $y,$ es decir, la regi\'on $\reg$ en el primer cuadránte entre el eje $y$ y la curva $x=f(y),$ entre $y=c$ y $y=d,$ se gira alrededor del eje $x$
-\begin{equation}
+\[
  \label{FCC:2}
  \tag{FCC(II)}
  V=2\pi \int_{c}^{d}yf(y)dy
-\end{equation}
+\]
 
 
 
@@ -250,7 +250,7 @@ Rote alrededor del eje $y$ la regi\'on sobre el eje $x$ y debajo de $y=2x^{2},$ 
 
 
 
-\begin{figure}[h]
+\begin{figure}
  \centering
  \includegraphics[height=7cm,keepaspectratio=true]{./calculo/sage0506.png}
  % sage0506.png: 0x0 pixel, 300dpi, 0.00x0.00 cm, bb=
@@ -265,11 +265,11 @@ Rote alrededor del eje $y$ la regi\'on sobre el eje $x$ y debajo de $y=2x^{2},$ 
 Supongamos que $0\leq g(x) \leq f(x)$ en el intervalo $[a,b], \; a \geq 0.$ Sea $\reg$ la regi\'on en el primer cuadránte entre $$y=f(x), \; y=g(x), \; x=a, \; x=b.$$ 
 
 Entonces el volumen del s\'olido de revoluci\'on obtenido al rotar $\reg$ alrededor del eje $y$ está dado por
-\begin{equation}
+\[
  \label{FDC}
  \tag{FDC}
  V=2\pi\int_{a}^{b}x\left( f(x)-g(x) \right)dx
-\end{equation}
+\]
 
 
 
@@ -318,11 +318,11 @@ Para cada $x\in [a,b],$ supongamos que el plano perpendicular al eje $x$ en el p
 
 
 Entonces, el volumen $V$ del s\'olido está dado por 
-\begin{equation}
+\[
  \label{fst}
  \tag{FST}
  V=\int_{a}^{b}A(x)dx.
-\end{equation}
+\]
 
 
 \begin{problema}
@@ -344,7 +344,7 @@ Entonces, el volumen $V$ del s\'olido está dado por
 
 
 Para que $$\displaystyle\int_{a}^{b}f(x)dx$$ est\'e bien definida, basta que $f$ sea una funci\'on continua y $a,b$ sean número reales. Ahora veremos que sucede cuando
-\begin{enumerate}[(a)]
+\begin{enumerate}
  \item  $a$ o $b$ tienden a $\pm \infty;$
  \item $f$ es discontinuo.
 \end{enumerate}
@@ -450,20 +450,20 @@ Por \emph{área de superficie,} nos referiremos al área de la superficie exteri
 
 
 Sea $f$ una funci\'on continua y $f(x)\geq 0$  en $[a,b]$ que es diferenciable en $(a,b).$  Entonces el área de superficie $S$ de la superficie de revoluci\'on  generado al girar la gráfica de $f$ en $[a,b]$ alrededor del eje $x$ esta dado por la f\'ormula
-\begin{equation}
+\[
  \label{36.1}
  S=2\pi \int_{a}^{b}f(x)\sqrt{1+(f'(x))^{2}}dx.
-\end{equation}
+\]
 
 
 
 
 
 De manera similar, sea $g$ una funci\'on continua y $g(y) \geq 0$  en $[c,d]$ que es diferenciable en $(c,d).$  Entonces el área de superficie $S$ de la superficie de revoluci\'on  generado al girar la gráfica de $g$ en $[c,d]$ alrededor del eje $y$ esta dado por la f\'ormula
-\begin{equation}
+\[
  \label{36.2}
  S=2\pi \int_{c}^{d}g(y))\sqrt{1+(g'(y))^{2}}dy.
-\end{equation}
+\]
 
 
 
@@ -472,10 +472,10 @@ De manera más general, si una curva esta dada por las ecuaciones param\'etricas
 $$
 x=f(u), \; y=g(u)
 $$ y el arco va de $u=u_{1}$ a $u=u_{2}$ se rota alrededor del eje $x,$ entonces el área de superficie de la superficie de revoluci\'on resultante está dada por la f\'ormula
-\begin{equation}
+\[
  \label{36.3}
  S=2\pi\int_{u_{1}}^{u_{2}}y\sqrt{\left( \dfrac{dx}{du} \right)^{2}+\left( \dfrac{dy}{du} \right)^{2}}du
-\end{equation}
+\]
  
 
 En la f\'ormula anterior, hemos supuesto que $f,g$ son continuas en $[u_{1},u_{2}],$ diferenciable en $\left( u_{1},u_{2} \right)$ y que $y=g(u)\geq 0$ en $[u_{1},u_{2}].$

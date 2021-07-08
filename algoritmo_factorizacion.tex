@@ -4,14 +4,14 @@
 \subsection{Diferencias de potencias}
 
 
-	\begin{prop}
-		\begin{equation}
+	\begin{proposicion}
+		\[
 			\label{pow:diff}
 			\tag{dP}
 			x^{n}-c^{n}=(x-c)\left( x^{n-1}+x_{n-2}c+...+xc^{n-2}+c^{n-1} \right)
-		\end{equation}
+		\]
 		
-	\end{prop}
+	\end{proposicion}
 	
 
 
@@ -46,7 +46,7 @@
 
 
 	El segundo factor en el lado derecho de \eqref{pow:diff} se puede reescribir de la siguiente manera:  
-	\begin{align}
+	\begin{align*}
 		\nonumber
 		x^{n-1}+x^{n-2}c+...+xc^{n-2}+c^{n-1} \\
 		\nonumber 
@@ -55,7 +55,7 @@
 		\tag{pS}
 		=\sum_{i+j=n-1}x^{i}c^{j}
 		=:S^{n-1}_{x,c}
-	\end{align}
+	\end{align*}
 	
 	donde \emph{$\sum_{i+j=M}$} denota la suma la suma sobre todas las parejas $i,j$ de números naturales, cuya suma sea igual a $M.$
 	
@@ -80,27 +80,27 @@
 
 \subsection{Divisores de un polinomio}
 
-	\begin{defn}
+	\begin{definicion}
 		Decimos que un polinomio $D(x)$ divide a otro polinomio $P(x)$ si existe un tercer polinomio $Q(x)$ tal que $D(x)Q(x)=P(x).$
 		
 		
 		En tal caso decimos que $D(x)$ divide a $P(x)$ y escribimos $D(x) \mid P(x).$ Al polinomio $Q(x)$ se le llama \emph{polinomio cociente.}
-	\end{defn}
+	\end{definicion}
 	
 
 
 
-	\begin{thm}
+	\begin{teorema}
 		Un número $x=c$ es un cero de $P(x)$ si y solo si $(x-c)$ divide a $P(x).$
 		
 		
 		Diremos que $D_{c}(x)=(x-c)$ es el \emph{divisor asociado} a $x=c.$
-	\end{thm}
+	\end{teorema}
 	
 
 
 
-	\begin{alg}[Factorizaci\'on de un divisor asociado] 
+	\begin{algoritmo}{Factorizaci\'on de un divisor asociado}
 		Supongamos que $x=c$ es un cero del polinomio $P(x)=a_{n}x^{n}+...+a_{1}x+a_{0}.$ %Entonces
 		\begin{enumerate}
 			\item Rescribimos explicitamente
@@ -113,7 +113,7 @@
 			$$P(x)=\left( x-c \right)\left( a_{n}S^{n-1}_{x,c}+...+a_{1} \right)$$
 		\end{enumerate}
 		
-	\end{alg}
+	\end{algoritmo}
 	
 
 %%%%%%%%%%%%%%%%%%%%%% 
@@ -132,14 +132,14 @@
 
 %%%%%%%%%%%%%%%%%%%%%% 
 
-	\begin{alg}[Encontrar los ceros racionales de un polinomio]
+	\begin{algoritmo}{Encontrar los ceros racionales de un polinomio}
 		\begin{enumerate}
 			\item \emph{Enlistar los posibles ceros.} Enliste los posibles ceros racionales usando el teorema de los ceros racionales.
 			\item \emph{Dividir.} Use la divisi\'on sint\'etica para evaluar el polinimio en cada uno de los candidatos para ceros racionales que encontr\'o en el paso anterior. Cuando el residuo es $0,$ observe el cociente que obtuvo.
 			\item \emph{Repetir.} Repita los pasos anteriores para el cociente. Pare cuando llegue al cociente que no tenga ceros racionales.
 		\end{enumerate}
 		
-	\end{alg}
+	\end{algoritmo}
 
 
 
@@ -172,7 +172,7 @@ p(x) = a\left( x-r_{1} \right)\left( x-r_{2} \right)
 
 %%%%%%%%%%%%%%%%%%%%%
 {Fórmula general}
-	\begin{prop}
+	\begin{proposicion}
 	Las soluciones de la ecuación 
 	\begin{align*}
 		ax^{2}+bx+c=0, a\neq 0
@@ -185,7 +185,7 @@ r = \dfrac{-b\pm\sqrt{D}}{2a}
 \end{cases}
 \end{align*}
 
-	\end{prop}
+	\end{proposicion}
 
 
 %%%%%%%%%%%%%%%%%%%%%
@@ -195,14 +195,14 @@ El número $D=b^{2}-4ac$ se llama \emph{discriminante} del polinomio cuadrático
 %%%%%%%%%%%%%%%%%%%%%
 
 
-\begin{cor}
-\begin{enumerate}[(a)]
+\begin{corolario}
+\begin{enumerate}
 \item Si $D>0$, entonces $p(x)=0$ tiene exactamente dos raíces reales y diferentes.
 \item Si $D=0$, entonces $p(x)=0$ tiene una única raíz real de multiplicidad $2$.
 \item Si $D<0$, entonces $p(x)=0$ tiene un par de raíces complejas conjugadas.
 \end{enumerate}
 
-\end{cor}
+\end{corolario}
 
 
 %%%%%%%%%%%%%%%%%%%%%

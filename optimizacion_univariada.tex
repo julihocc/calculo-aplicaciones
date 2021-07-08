@@ -2,25 +2,25 @@
 \section{Optimización univariada}
 
 
-    \begin{defn} Sea $f:D\subset \R \to \R.$ Decimos que:
+    \begin{definicion} Sea $f:D\subset \R \to \R.$ Decimos que:
         \begin{enumerate}
             \item $f$ alcanza su \emph{valor máximo} o \emph{máximo global} en $c\in D$ si $f(c)\geq f(x),$ para toda $x\in D$;
             \item $f$ alcanza su \emph{valor mínimo} o \emph{mínimo global} en $c\in D$ si $f(c)\leq f(x),$ para toda $x\in D$.
         \end{enumerate}
         
-    \end{defn}
+    \end{definicion}
 
 
-    \begin{thm}[Teorema del Valor Extremo]
+    \begin{teorema}[Teorema del Valor Extremo]
         Si $f:[a,b]\to \R$ es continua, entonces $f$ alcanza su máximo y su mínimo.
-    \end{thm}
+    \end{teorema}
 
 
     Aunque el criterio anterior nos es útil al optimizar en intervalos compactos, es decir, de la forma $[a,b]$, en un caso
     general no siempre esto es cierto. Sin embargo, tenemos la siguiente noción de máximo (mínimo) en intervalos abiertos.
 
 
-    \begin{defn} Sea $f:D\subset \R \to \R.$ Decimos que:
+    \begin{definicion} Sea $f:D\subset \R \to \R.$ Decimos que:
         \begin{enumerate}
             \item $f$ tiene un \emph{máximo local} en $c\in D$ si existe un radio $\ep>0$ suficientemente pequeño, de
             manera que $f(c)\geq f(x),$ para toda $x\in (c-\ep,c+\ep)\subset D$;
@@ -28,44 +28,44 @@
             manera que $f(c)\leq f(x),$ para toda $x\in (c-\ep,c+\ep)\subset D$.
         \end{enumerate}
         
-    \end{defn}
+    \end{definicion}
 
 
-    \begin{rem}
+    \begin{observacion}
         La condición de que exista si existe un radio $\ep>0$ suficientemente pequeño, y que $x\in (c-\ep,c+\ep)\subset D$ se
         puede entender como que $x\in D$ este suficientemente cerca de $c\in D.$ De manera informal, podemos decir que $f$
         alcanza un máximo local en $c$ si $f(c)\geq f(x)$ para $x$ suficientemente cercanos a $c.$ Lo mismo se puede decir para
         un mínimo local. Note que todo máximo (mínimo) global es, en particular, un máximo (mínimo resp.) local.
-    \end{rem}
+    \end{observacion}
 
 
-    \begin{thm}[Teorema de Fermat]
+    \begin{teorema}[Teorema de Fermat]
         Si $f:D\subset \R \to \R$ alcanza un máximo o mínimo local en $c\in D$ y $f'(c)$ existe, entonces \emph{necesariamente}
         $f'(c)=0.$
-    \end{thm}
+    \end{teorema}
 
 
-    \begin{rem}
+    \begin{observacion}
         Debemos tener cuidado al usar el teorema de Fermat. Por ejemplo $f=\abs{x}$ alcanza su mínimo en cero, pero en este
         punto la derivada no existe. En cambio, $f(x)=x^{3}$ tiene derivada igual a cero en $x=0,$ pero este punto no es máximo
         ni mínimo de la función.
-    \end{rem}
+    \end{observacion}
 
 
     Como podemos apreciar, los puntos más interesantes para nuestro estudio son aquellos donde la derivada no existe o si
     existe, es igual a cero.
 
 
-    \begin{defn}
+    \begin{definicion}
         Sea $f:D \subset \R \to \R$ y $c\in D.$ Decimos que $c$ es un punto crítico si $f'(c)$ no existe o si existe,
         $f'(c)=0.$
-    \end{defn}
+    \end{definicion}
 
 
     Con los resultados anteriores, podemos describir un criterio para optimizar funciones continuas en compactos.
 
 
-    \begin{prop}
+    \begin{proposicion}
         \label{opt:compacto}
         Supongamos que
         \begin{enumerate}
@@ -77,7 +77,7 @@
             \item $c=a$ o $c=b,$ o
             \item $f'(c)=0$ un punto crítico.
         \end{enumerate}
-    \end{prop}
+    \end{proposicion}
 
 
     En decir, para encontrar donde $f$ alcanza sus valores extremos, basta probar en los extremos del intervalo o en los

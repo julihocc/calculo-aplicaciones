@@ -18,18 +18,18 @@ en un momento determinado. Aplicaciones de este modelo incluyen:
 De hecho, si conocemos la condición \emph{inicial,} es decir, el valor del sistema en el tiempo $t=0,$ podemos
 encontrar una \emph{única solución al problema}.
 
-\begin{thm}
+\begin{teorema}
  La única solución \emph{continuamente diferenciable} a la ecuación diferencial
  $$
 x'=cx,
  $$
  con condición incial $x(0)=x_{0}$ es
-\begin{equation}
+\[
  \label{sol:1dim}
  x(t)=e^{tc}x_{0}.
-\end{equation}
+\]
 
- \end{thm}
+ \end{teorema}
 
 Es fácil comprobar que (\ref{sol:1dim}) es un solución derivando de manera usual; que esta sea la \emph{única solución}
 con derivada continua es resultado del \emph{teorema fundamental de las ecuaciones diferenciales ordinarias.}
@@ -69,13 +69,13 @@ Note como se parece este sistema al de una sola variable. De hecho, así como po
 posible definir $e^{A},$ donde $A$ es una matriz $n \times n.$ Para esto, necesitamos la siguiente definición de la
 función exponencial.
 
-\begin{defn}
+\begin{definicion}
  $$e^{x}=\sum_{k\geq 0} \dfrac{x^{k}}{k!}$$
-\end{defn}
+\end{definicion}
 
 Esta definición tiene sentido para matrices porque $A^{k}= A\cdots A$ un número $k$ de veces.
 
-\begin{thm}
+\begin{teorema}
  La única solución de la ecuación diferencial \emph{vectorial}
  $$
 x'(t)=Ax(t), 
@@ -87,12 +87,12 @@ x_{0}= \bm{x_{1,0} \\ \vdots \\ x_{n,0}} \in \R^{n}
  es $$
 x(t)=e^{tA}x_{0}.
  $$
-\end{thm}
+\end{teorema}
 
 Sin embargo, calcular la $n$-ésima potencia de una matriz puede ser demasiado complicado... excepto para matrices
 diagonales.
 
-\begin{prop}
+\begin{proposicion}
  Si $$
 D=\bm{\lam_{1} & 0 & & \\ 0 & \lam_{2} & & \\ & & \ddots & \\ &&&\lam_{n}}
  $$
@@ -100,7 +100,7 @@ D=\bm{\lam_{1} & 0 & & \\ 0 & \lam_{2} & & \\ & & \ddots & \\ &&&\lam_{n}}
  $$
 D^{k}=\bm{\lam_{1}^{k} & 0 & & \\ 0 & \lam_{2}^{k} & & \\ & & \ddots & \\ &&&\lam_{n}^{k}}.
  $$
-\end{prop}
+\end{proposicion}
 
 \begin{proof} 
  La demostración se puede hacer por inducción. 
@@ -233,11 +233,11 @@ $$
 \bm{0 \\ 1}.
 $$
 
-\begin{rem}
+\begin{observacion}
 Como tenemos dos vectores propios en un espacio de dimensión dos, basta verificar que son linealmente independiente,
 para saber que forman una base.  Para comprobar que son linealmente independientes, formamos una matriz que tenga
 como columnas a estos vectores y verificamos que esta matriz es invertible.
-\end{rem}
+\end{observacion}
 
 
 \noindent

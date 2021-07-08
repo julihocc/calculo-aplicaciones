@@ -11,10 +11,10 @@
 
 
  Sea $f(x)$ una funci\'on definida en $0\leq x < \infty$ y sea $s$ una variable arbitraria.  La \emph{Transformada de Laplace} de $f(x),$ denotada ya sea por $\lap{f(x)}$ o por $F(s)$ está dada por
- \begin{equation}
+ \[
   \label{bron:21.1}
   \lap{f(x)}=F(s)=\int_{0}^{\infty}e^{-sx}f(x)dx,
- \end{equation}
+ \]
 siempre y cuando dicha integral converja.
 
 
@@ -28,13 +28,13 @@ La convergencia ocurre cuando el límite
 existe.
 
 {}
-\begin{rem}
+\begin{observacion}
  \begin{enumerate}
   \item Si el límite anterior no existe, la integral impropia diverge y $f(x)$ no tiene transformada de Laplace.
   \item Cuando evaluamos la integral en \eqref{bron:21.2}, la variable $s$ deberá tratarse como una constante debido a que la integración es respecto de $x.$
  \end{enumerate}
 
-\end{rem}
+\end{observacion}
 
 
 
@@ -137,45 +137,45 @@ $$
 \subsection{Propiedades}
 
 \subsection{Propiedades de la Transformada de Laplace}
-\begin{align}
+\begin{align*}
   \label{bron:21.4}
   \tag{PTL2}
   \lap{e^{ax}f(x)}&=F(s-a)\\
   \label{bron:21.5}
   \tag{PTL3}
   \lap{x^{n}f(x)}&=(-1)^{n}\dfrac{d^{n}}{ds^{n}}\left( F(s) \right)
-\end{align}
+\end{align*}
 
 
 %
 %
 % Si $\lim_{x\to 0^{+}}\dfrac{f(x)}{x}$ existe, entonces
-% \begin{equation}
+% \[
 %    \label{bron:21.6}
 %    \tag{PTL4}
 %  \lap{\frac{1}{x}f(x)}=\int_{s}^{\infty}F(t)dt.
-% \end{equation}
+% \]
 %
 %
 %
 %
 % De manera reciproca,
-% \begin{equation}
+% \[
 %  \label{bron:21.7}
 %  \tag{PTL5}
 %  \lap{\int_{0}^{x}f(t)dt}=\dfrac{1}{s}F(s).
-% \end{equation}
+% \]
 %
 %
 
 %
 % Si $f(x)$ es peri\'odica con periodo $\om,$ es decir $f(x+\om)=f(x), \, \om\neq 0,$ entonces
-% \begin{equation}
+% \[
 %  \label{bron:21.8}
 %  %\tag{PTL6}
 %  \lap{f(x)}=
 %  \dfrac{\int_{0}^{\om}e^{-sx}f(x)dx}{1-e^{-\om s}}
-% \end{equation}
+% \]
 %
 %
 
@@ -188,10 +188,10 @@ $$
 
 
 {}
-\begin{align}
+\begin{align*}
 \label{tlt:22}
 \lap{t^{n}e^{at}} = \dfrac{n!}{\left( s-a \right)^{n+1}}
-\end{align}
+\end{align*}
 
 
  \begin{problema}

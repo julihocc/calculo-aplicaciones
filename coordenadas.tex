@@ -5,10 +5,10 @@
 
 Si $E=\set{e_{1},...,e_{n}}$ es base de un espacio vectorial $V,$ entonces todo vector $v\in V$ se puede escribir de la
 forma
-\begin{equation}
+\[
  \label{coordenadas}
  v=v_{1}e_{1}+...+v_{n}e_{n}.
-\end{equation}
+\]
 
 Esto es cierto para cualquier otro conjunto que genere $V.$ Lo importante de una base es que, debido a la independencia
 lineal de $E$, esta manera de escribir el vector es \emph{única}.
@@ -28,18 +28,18 @@ En otras palabras, los escalares $v_{1},...,v_{n}$ en la expresi\'on (\ref{coord
 
 Para simplificar la expresi\'on (\ref{coordenadas}) necesitamos el concepto de orden de una base.
 
-\begin{defn}
+\begin{definicion}
  Una base ordenada $\left( e_{1},...,e_{n} \right)$ es una sucesi\'on de vectores en $V$ tal que
  $\set{e_{1},...,e_{n}}$ es una base.
 
  Dos bases ordendas $\left( e_{1},...,e_{n} \right), \left( f_{1},...,f_{n} \right)$ son iguales si y solo si
 $$e_{1}=f_{1},..., e_{n}=f_{n}.$$
-\end{defn}
+\end{definicion}
 
-\begin{rem}
+\begin{observacion}
  Si intercambiamos un par de elementos de una base ordenada obtendremos una base ordenada distinta, aunque como
 conjuntos sean diferentes.
-\end{rem}
+\end{observacion}
 
 \begin{problema}
  $$
@@ -87,12 +87,12 @@ F=\left( \bm{0\\1}, \bm{1\\0} \right),
  $$
 \end{problema}
 
-\begin{defn}
+\begin{definicion}
  La base $$
 \left( \bm{1\\0\\ \vdots \\ 0}, \bm{0\\1\\ \vdots \\ 0}, ..., \bm{0\\0\\ \vdots \\ 1} \right)
  $$
  de $\R^{n}$ se conoce como \emph{base can\'onica.}
-\end{defn}
+\end{definicion}
 
 \subsection*{Cambios de base}
 
@@ -123,25 +123,25 @@ w_{1}f_{1,n}+...+w_{n}f_{n,n} } \\
 &= \bm{f_{1,1} & ... & f_{1,n} \\ \vdots & & \vdots \\ f_{n,1} & ... & f_{n,n}} \bm{w_{1} \\ \vdots \\ w_{n}}
 \end{align*}
 
-\begin{defn}
+\begin{definicion}
  $$P_{F,B}:=\bm{f_{1,1} & ... & f_{1,n} \\ \vdots & & \vdots \\ f_{n,1} & ... & f_{n,n}}$$ se conoce como \emph{matriz
 de paso} de $F$ a $B$. También decimos que es la matriz cambio de base de $F$ a $B$.
-\end{defn}
+\end{definicion}
 
 Así como podemos cambiar las coordenadas de la base $F$ a la base $B,$ podemos aplicar el mismo procedimiento para
 encontrar la matriz de paso de $B$ a $F$. Sin embargo, al ser el procedimiento inverso, basta encontrar la matriz
 inversa. En otras palabras.
 
-\begin{prop}
+\begin{proposicion}
 \label{PBF}
  $P_{B,F}=P_{F,B}^{-1}.$
-\end{prop}
+\end{proposicion}
 
-\begin{rem}
+\begin{observacion}
  El hecho de que $P_{F,B}$ sea invertible se debe a que esta formada por los vectores columna que son las coordenadas
 de cada elemento de la base $F$ en términos de $B.$ Estos vectores generen todo $\R^{n}$, que es equivalente a
 que la matriz $P_{F,B}$ sea invertible.
-\end{rem}
+\end{observacion}
 
 \begin{problema}
  \begin{enumerate}
