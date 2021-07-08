@@ -1,9 +1,0 @@
-% Encoding: UTF-8
-
-@Book{cardenas,
-  author = {C{\'a}rdenas, Humberto},
-  title  = {{\'A}lgebra superior},
-  year   = {1973},
-}
-
-@Comment{jabref-meta: databaseType:bibtex;}
