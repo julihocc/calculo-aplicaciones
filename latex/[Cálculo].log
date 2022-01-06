@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.15)  5 JAN 2022 19:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.15)  5 JAN 2022 19:10
 entering extended mode
 **./[Cálculo].tex
 ([Cálculo].tex
@@ -2442,7 +2442,7 @@ Package rerunfilecheck Info: File `[Cálculo].out' has not changed.
 Here is how much of TeX's memory you used:
  31520 strings out of 478927
  570850 string characters out of 2852534
- 874188 words of memory out of 3000000
+ 874096 words of memory out of 3000000
  47475 multiletter control sequences out of 15000+600000
  559168 words of font info for 177 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2484,7 +2484,7 @@ ers/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb><C:/Use
 rs/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Use
 rs/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt8.pfb><C:/User
 s/julih/AppData/Local/Programs/MiKTeX/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on [Cálculo].pdf (151 pages, 4152285 bytes).
+Output written on [Cálculo].pdf (151 pages, 4150489 bytes).
 PDF statistics:
  2302 PDF objects out of 2487 (max. 8388607)
  998 named destinations out of 1000 (max. 500000)
