@@ -1,23 +1,25 @@
 \section{Derivadas}
 
-{Definición}
-  La \emph{derivada} de $y=f(x)$ en el punto $x$ está definida como
-  \begin{align*}
-   f'(x)= \lim_{h\to 0}\dfrac{f(x+h)-f(x)}{h} 
-   = \lim_{\Delta x \to 0}\dfrac{\Delta y}{\Delta x}
-   \end{align*}
+\subsection{Primeras definiciones}
 
-donde $h=\Delta x$, $\Delta y=f(x+h)-f(x)=f(x+\Delta x)-f(x)$ siempre que tal límite exista.
-%%%%%%%%%%%%%%%%%%%%%
-{Diferencial}
-  Si $\Delta x \approx 0$ y $f'(x)$ existe, entonces 
-  \begin{align*}
-   \Delta y \approx f'(x) \Delta x.
-   \end{align*}
+\begin{definicion}
+	  La \emph{derivada} de $y=f(x)$ en el punto $x$ está definida como
+	\begin{align*}
+		f'(x)= \lim_{h\to 0}\dfrac{f(x+h)-f(x)}{h}
+		= \lim_{\Delta x \to 0}\dfrac{\Delta y}{\Delta x}
+	\end{align*}
 
-%%%%%%%%%%%%%%%%%%%%%
-{}
-   El diferencial de $x$ es un cambio \emph{infinitesimal  en tal variable}. 
+	donde $h=\Delta x$, $\Delta y=f(x+h)-f(x)=f(x+\Delta x)-f(x)$ siempre que tal límite exista.
+\end{definicion}
+
+\begin{observacion}
+	Si $\Delta x \approx 0$ y $f'(x)$ existe, entonces
+	\begin{align*}
+		\Delta y \approx f'(x) \Delta x.
+	\end{align*}
+	En física, el diferencial de $x$ es un cambio \emph{infinitesimal}  en dicha variable.
+\end{observacion}
+
 
 %%%%%%%%%%%%%%%%%%%%%
 {}
@@ -34,10 +36,10 @@ donde $h=\Delta x$, $\Delta y=f(x+h)-f(x)=f(x+\Delta x)-f(x)$ siempre que tal l�
   El proceso de encontrar las derivadas de una función se conoce como \emph{diferenciación}.
 
 %%%%%%%%%%%%%%%%%%%%%
-{Derivadas de alto orden}
-  \begin{definicion}
+{}
+  \begin{definicion}[Derivadas de alto orden]
    \begin{align*}
-    \dfrac{d^{n}y}{dx^{n}}= 
+    \dfrac{d^{n}y}{dx^{n}}=
     \begin{cases}
 f(x) & n=0 \\
 \dfrac{d}{dx}\left( \dfrac{d^{n-1}}{dx^{n-1}}f(x) \right) & n>0
@@ -48,32 +50,36 @@ f(x) & n=0 \\
 
 %%%%%%%%%%%%%%%%%%%%%
 {}
-  Usualmente rescribimos 
+  Usualmente rescribimos
   \begin{align*}
    y' = \dfrac{dy}{dx} \\
-   y'' = \dfrac{d^{2}y}{dx^{2}}    
+   y'' = \dfrac{d^{2}y}{dx^{2}}
    \end{align*}
-   
+
    En el caso $n>2$, es más común escribir
- $   y^{(n)}$ para denotar a la $n-$ésima derivada. 
+ $   y^{(n)}$ para denotar a la $n-$ésima derivada.
 
 %%%%%%%%%%%%%%%%%%%%%
-{Interpretación geométrica}
+\subsection{Interpretación geométrica}
   Geométricamente, la derivada $f'(a)$ de una función $f(x)$, en un punto dado $x=a$, representa \emph{pendiente de la recta tangente} a $y=f(x)$ en el punto $\left( a,f(a) \right)$.
 
 %%%%%%%%%%%%%%%%%%%%%
-{Relación con continuidad}
-  Si una función tiene derivada en un punto, entonces es continua en dicho punto. 
-  
-  Sin embargo, el recíproco no es necesariamente cierto. 
+\subsection{Relación con continuidad}
+
+  Si una función tiene derivada en un punto, entonces es continua en dicho punto.
+  Sin embargo, el recíproco no es necesariamente cierto.
+
+  \begin{resuelto}
+	Demuestra que la función de valor absoluto $ f(x) = \sqrt{x^2}, x\in \R $ es continua en toda la recta real, pero no tiene derivada en $ x=0 $.
+  \end{resuelto}
 
 %%%%%%%%%%%%%%%%%%%%%
 \subsection{Fórmulas de derivación}
 {}
-  En lo subsecuente, $u,v$ representarán funciones de $x$, mientras que $a,c,p$ representarán constantes.   
+  En lo subsecuente, $u,v$ representarán funciones de $x$, mientras que $a,c,p$ representarán constantes.
 
 
-  \emph{Supondremos que las derivadas de $u$ y $v$ existe, es decir, que son diferenciables}. 
+  \emph{Supondremos que las derivadas de $u$ y $v$ existe, es decir, que son diferenciables}.
 
 %%%%%%%%%%%%%%%%%%%%%
 {}
@@ -102,118 +108,35 @@ f(x) & n=0 \\
   En particular, cuando $u=x$, las fórmulas se simplifican porque $\dfrac{du}{dx}=1$.
 
 %%%%%%%%%%%%%%%%%%%%%
-\subsection{Ejemplos}
-{}
-  \begin{problema}
+  \begin{resuelto}
    Demostrar que si $u$ y $v$ son funciones diferenciables
    \begin{enumerate}[(i)]
      %NUEVO ITEM
-     \item \[\dfrac{d}{dx}\left( u+v \right) = 
-     \dfrac{du}{dx}+\dfrac{dv}{dx}\] 
-     
+     \item \[\dfrac{d}{dx}\left( u+v \right) =
+     \dfrac{du}{dx}+\dfrac{dv}{dx}\]
+
      \item \[\dfrac{d}{dx}\left( uv \right) = u\dfrac{dv}{du}+v\dfrac{du}{dx}
      \]
 \end{enumerate}
-  \end{problema}
+  \end{resuelto}
 
 
 %%%%%%%%%%%%%%%%%%%%%
 {}
-  \begin{problema}
+  \begin{resuelto}
    Demostrar que si $f(x)$ tiene una derivada en $x=a$, entonces $f(x)$ es continua en $x=a$.
-  \end{problema}
+  \end{resuelto}
 
 
 %%%%%%%%%%%%%%%%%%%%%
 {}
-  \begin{problema}
+  \begin{resuelto}
    Demostrar que si $p$ es cualquier entero positivo, y $u$ es una función diferenciable respecto a $x$, entonces
    \begin{align*}
     \dfrac{d}{dx}u^{p}=pu^{p-1}\dfrac{du}{dx}
     \end{align*}
-  \end{problema}
+  \end{resuelto}
 
 
 %%%%%%%%%%%%%%%%%%%%%
 {}
-\begin{problema}
-   Dando por hecho que \[\lim_{b\to 0}\dfrac{\sin(b)}{b}=1\] demostrar que 
-   \begin{enumerate}[(i)]
-     %NUEVO ITEM
-     \item \[\dfrac{d}{dx}\sin(u)=\cos(u)\dfrac{du}{dx}\] 
-     \item \[\dfrac{d}{dx}\cos(u)=-\sin(u)\dfrac{du}{dx}\] 
-     \item \[\dfrac{d}{dx}\tan(u)=\sec^{2}(u)\dfrac{du}{dx}\] 
-     
-\end{enumerate}
-\end{problema}
-
-
-%%%%%%%%%%%%%%%%%%%%%
-{}
-\begin{problema}
- 
-  Demostrar que 
-  \begin{align*}
-   \dfrac{d}{dx}\tan^{-1}\left( u \right) = 
-   \dfrac{1}{1+u^{2}}\dfrac{du}{dx}
-   \end{align*}
-\end{problema}
-
-
-%%%%%%%%%%%%%%%%%%%%%
-{}
-\begin{problema}
-  Dando por hecho que \[\lim_{b\to 0}\left( 1+b \right)^{1/b}=e\] demostrar que 
-  \begin{enumerate}[(i)]
-    %NUEVO ITEM
-    \item \[\dfrac{d}{dx}\ln(u)=\dfrac{1}{u}\dfrac{du}{dx}\] \\
-    
-    \item \[\dfrac{d}{dx}e^{u}= e^{u}\dfrac{du}{dx}\]
-\end{enumerate}
-\end{problema}
-
-
-%%%%%%%%%%%%%%%%%%%%%
-{}
-  \begin{problema}
-   Encontrar
-   \begin{enumerate}[(i)]
-     %NUEVO ITEM
-     \item \[\dfrac{d}{dx}\sqrt{x^{4}+2x}\] 
-     
-     \item \[\dfrac{d}{dx}\sin\left( \ln(x) \right)\]
-     
-     \item \[\dfrac{d}{dx}\ln\left( e^{3x}+ \cos\left( 2x \right) \right)\]
-\end{enumerate}
-  \end{problema}
-
-
-%%%%%%%%%%%%%%%%%%%%%
-{}
-  \begin{problema}
-   Si \[x^{2}y-e^{2x}=\sin(y)\], encontrar $y'$.
-  \end{problema}
-
-
-%%%%%%%%%%%%%%%%%%%%%
-{}
-  \begin{problema}
-   Mostrar que si \[y=3x^{2}+\sin(2x)\] entonces
-   \[\dfrac{d^{2}y}{dx^{2}}+4y=12x^{2}+6\]
-  \end{problema}
-
-
-%%%%%%%%%%%%%%%%%%%%%
-{}
-  \begin{problema}
-   Encontrar los diferenciales de 
-   \begin{enumerate}[(i)]
-     %NUEVO ITEM
-     \item \[y=x^{2}-\ln x\] 
-     
-     \item \[y = e^{-2x}+\cos(3x)\]
-\end{enumerate}
-  \end{problema}
-
-
-%%%%%%%%%%%%%%%%%%%%%

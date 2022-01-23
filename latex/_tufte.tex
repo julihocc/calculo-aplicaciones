@@ -86,7 +86,7 @@ numbered = no
 ]{solucion}
 
 \declaretheorem[
-style=colored-2,
+style=colored-1 ,
 name= Ejemplo,
 numberwithin=chapter
 ]{ejemplo}
@@ -129,13 +129,33 @@ numberwithin=chapter,
 %\newtheorem{observacion}{Observación}%[chapter]
 
 \declaretheorem[
-style=colored-2,
+style=colored-1,
 name=Observación,
 numbered = no
 ]{observacion}
 
-\newtheorem{axioma}{Axioma}%[chapter]
-\newtheorem{sugerencia}{Sugerencia}%[chapter]
-\newtheorem{corolario}{Corolario}%[chapter]
-\newtheorem{tdv}{Tabla de Verdad}
+\declaretheorem[
+style=colored-1,
+name=Corolario,
+numbered = no
+]{corolario}
+
+\declaretheorem[
+style=colored-1,
+name=Sugerencia,
+numbered = no
+]{sugerencia}
+
+\declaretheorem[
+style=colored-1,
+name=Axioma,
+numbered = no
+]{axioma}
+
+\declaretheorem[
+style=colored-1,
+name=Tabla de Verdad,
+numbered = no
+]{tdv}
+
 
