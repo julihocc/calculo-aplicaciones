@@ -1,174 +1,86 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {chapter}{\numberline {1}Cálculo Diferencial}{11}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Límites y continuidad}{11}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}Límites}{11}{subsection.1.1.1}%
-\contentsline {subsection}{\numberline {1.1.2}Continuidad}{12}{subsection.1.1.2}%
-\contentsline {subsection}{\numberline {1.1.3}Ejemplos}{12}{subsection.1.1.3}%
-\contentsline {section}{\numberline {1.2}Derivadas}{13}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Fórmulas de derivación}{13}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Ejemplos}{14}{subsection.1.2.2}%
-\contentsline {section}{\numberline {1.3}Derivación implícita}{16}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Derivación logarítmica}{18}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Linealización}{20}{section.1.5}%
-\contentsline {section}{\numberline {1.6}Optimización univariada}{21}{section.1.6}%
-\contentsline {subsection}{\numberline {1.6.1}Optimización aplicada}{23}{subsection.1.6.1}%
-\contentsline {section}{\numberline {1.7}Análisis de Gráficas}{27}{section.1.7}%
-\contentsline {chapter}{\numberline {2}Cálculo Integral}{31}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Antiderivadas}{31}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Integración por sustitución}{32}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Ejemplos Resueltos}{34}{subsection.2.1.2}%
-\contentsline {section}{\numberline {2.2}La integral definida}{34}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Notación ``Sigma''}{34}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Linealidad}{35}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Área bajo la curva}{35}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}Propiedades de la Integral Definida}{38}{subsection.2.2.4}%
-\contentsline {subsection}{\numberline {2.2.5}Propiedades: Linealidad}{38}{subsection.2.2.5}%
-\contentsline {subsection}{\numberline {2.2.6}Propiedades: Límites}{38}{subsection.2.2.6}%
-\contentsline {subsection}{\numberline {2.2.7}Ejemplos Resueltos}{38}{subsection.2.2.7}%
-\contentsline {section}{\numberline {2.3}El Teorema Fundamental del Cálculo}{38}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Valor promedio de una función}{38}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Valor promedio de una función}{39}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Enunciado del T.F.C}{39}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Ejemplos Resueltos}{40}{subsection.2.3.4}%
-\contentsline {section}{\numberline {2.4}Integraci\'on por partes}{42}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Ejemplos Resueltos}{43}{subsection.2.4.1}%
-\contentsline {section}{\numberline {2.5}Fracciones parciales}{44}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Método de Fracciones Parciales}{45}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}Caso I. $D(x)$ es producto de factores lineales distintos}{45}{subsection.2.5.2}%
-\contentsline {subsection}{\numberline {2.5.3}Regla General para Caso 1}{45}{subsection.2.5.3}%
-\contentsline {subsection}{\numberline {2.5.4}Caso 2. $D(x)$ es producto de factores lineales repetidos.}{46}{subsection.2.5.4}%
-\contentsline {subsection}{\numberline {2.5.5}Regla General para el Caso 2.}{46}{subsection.2.5.5}%
-\contentsline {subsection}{\numberline {2.5.6}Caso 3. Factores cuadráticos irreducibles distintos, y lineales repetidos}{46}{subsection.2.5.6}%
-\contentsline {subsection}{\numberline {2.5.7}Caso IV. Factores cuadráticos irreducibles repetidos}{46}{subsection.2.5.7}%
-\contentsline {section}{\numberline {2.6}Técnicas de integaci\'on trigonométrica}{46}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}Integrados trigonométricos}{46}{subsection.2.6.1}%
-\contentsline {subsection}{\numberline {2.6.2}Caso 1}{47}{subsection.2.6.2}%
-\contentsline {subsection}{\numberline {2.6.3}Tipo 1.1}{47}{subsection.2.6.3}%
-\contentsline {subsection}{\numberline {2.6.4}Tipo 1.2}{47}{subsection.2.6.4}%
-\contentsline {subsection}{\numberline {2.6.5}Caso 2}{47}{subsection.2.6.5}%
-\contentsline {subsection}{\numberline {2.6.6}Tipo 2.1}{47}{subsection.2.6.6}%
-\contentsline {subsection}{\numberline {2.6.7}Tipo 2.2}{48}{subsection.2.6.7}%
-\contentsline {subsection}{\numberline {2.6.8}Tipo 2.3}{48}{subsection.2.6.8}%
-\contentsline {subsection}{\numberline {2.6.9}Caso 3}{48}{subsection.2.6.9}%
-\contentsline {subsection}{\numberline {2.6.10}Sustituci\'on trigonométrica}{49}{subsection.2.6.10}%
-\contentsline {subsection}{\numberline {2.6.11}Estrategia I}{49}{subsection.2.6.11}%
-\contentsline {subsection}{\numberline {2.6.12}Estrategia II}{49}{subsection.2.6.12}%
-\contentsline {subsection}{\numberline {2.6.13}Estrategia III}{49}{subsection.2.6.13}%
-\contentsline {section}{\numberline {2.7}\'Area y longitud de arco}{49}{section.2.7}%
-\contentsline {subsection}{\numberline {2.7.1}\'Area entre una curva y el eje vertical}{49}{subsection.2.7.1}%
-\contentsline {subsection}{\numberline {2.7.2}\'Area entre curvas}{51}{subsection.2.7.2}%
-\contentsline {subsection}{\numberline {2.7.3}Longitud de arco}{51}{subsection.2.7.3}%
-\contentsline {subsection}{\numberline {2.7.4}Ejemplos}{53}{subsection.2.7.4}%
-\contentsline {section}{\numberline {2.8}Volumen}{53}{section.2.8}%
-\contentsline {subsection}{\numberline {2.8.1}F\'ormula del Disco}{55}{subsection.2.8.1}%
-\contentsline {subsection}{\numberline {2.8.2}M\'etodo de Washer}{56}{subsection.2.8.2}%
-\contentsline {subsection}{\numberline {2.8.3}M\'etodo de las capas cil\'indricas}{56}{subsection.2.8.3}%
-\contentsline {subsection}{\numberline {2.8.4}Diferencia de Capas}{58}{subsection.2.8.4}%
-\contentsline {subsection}{\numberline {2.8.5}Secciones trasnversales (rebanadas)}{60}{subsection.2.8.5}%
-\contentsline {section}{\numberline {2.9}Integrales impropias}{60}{section.2.9}%
-\contentsline {subsection}{\numberline {2.9.1}L\'imites al infinito}{60}{subsection.2.9.1}%
-\contentsline {subsection}{\numberline {2.9.2}Discontinuidades del integrando}{61}{subsection.2.9.2}%
-\contentsline {section}{\numberline {2.10}Área de Superficies de Revoluci\'on}{62}{section.2.10}%
-\contentsline {chapter}{\numberline {3}Cálculo en varias variables}{65}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Representación paramétrica de curvas}{65}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Ecuaciones paramétricas}{65}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Longitud de arco}{66}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Ejemplos}{66}{subsection.3.1.3}%
-\contentsline {section}{\numberline {3.2}Derivadas Parciales}{67}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Objetivos del aprendizaje}{67}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Derivadas parciales de primer orden}{67}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Derivadas parciales de primer orden}{67}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Algunas propiedades y f\'ormulas}{67}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}Cálculo de derivadas parciales}{68}{subsection.3.2.5}%
-\contentsline {subsection}{\numberline {3.2.6}Clasificaci\'on de Puntos Cr\'iticos}{69}{subsection.3.2.6}%
-\contentsline {subsection}{\numberline {3.2.7}Hessiano de una funci\'on}{71}{subsection.3.2.7}%
-\contentsline {chapter}{\numberline {4}Ecuaciones de primer orden}{73}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Fundamentos de Ecuaciones Diferenciales}{73}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Conceptos básicos}{73}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Constantes arbitrarias}{74}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Soluciones}{74}{subsection.4.1.3}%
-\contentsline {subsection}{\numberline {4.1.4}Ecuación diferencial de una familia de curvas}{74}{subsection.4.1.4}%
-\contentsline {subsection}{\numberline {4.1.5}Ejemplos}{75}{subsection.4.1.5}%
-\contentsline {section}{\numberline {4.2}Ecuaciones Especiales de Primer Orden}{84}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Ecuaciones lineales}{85}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Ecuaciones homogéneas de orden cero}{87}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Ecuaciones de Bernoulli}{88}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4.2.4}Ecuaciones solubles}{88}{subsection.4.2.4}%
-\contentsline {subsection}{\numberline {4.2.5}Ecuación de Clairaut}{89}{subsection.4.2.5}%
-\contentsline {subsection}{\numberline {4.2.6}Reducción de orden}{89}{subsection.4.2.6}%
-\contentsline {subsection}{\numberline {4.2.7}Ejemplos}{89}{subsection.4.2.7}%
-\contentsline {section}{\numberline {4.3}Aplicaciones}{90}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Crecimiento y decaimiento}{90}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Ejemplos de enfriamiento}{90}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4.3.3}Caída de cuerpos}{90}{subsection.4.3.3}%
-\contentsline {subsection}{\numberline {4.3.4}Ejemplos de Disolución}{92}{subsection.4.3.4}%
-\contentsline {subsection}{\numberline {4.3.5}Circuitos Eléctricos}{93}{subsection.4.3.5}%
-\contentsline {chapter}{\numberline {5}Espacios Vectoriales}{97}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Definici\'on y ejemplos}{97}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Subespacios vectoriales}{100}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Transformaciones lineales}{103}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Núcleo e imagen}{107}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Bases y dimensi\'on}{109}{section.5.5}%
-\contentsline {section}{\numberline {5.6}Coordenadas y cambios de base.}{112}{section.5.6}%
-\contentsline {chapter}{\numberline {6}Teoría espectral}{119}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Valores propios}{119}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Valores propios}{120}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Vectores propios}{123}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Diagonalización}{125}{section.6.4}%
-\contentsline {chapter}{\numberline {7}Ecuaciones de Orden Superior}{129}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Ecuaciones Diferenciales Lineales}{129}{section.7.1}%
-\contentsline {subsection}{\numberline {7.1.1}Soluciones Linealmente Independientes}{130}{subsection.7.1.1}%
-\contentsline {subsection}{\numberline {7.1.2}El Wronskiano}{131}{subsection.7.1.2}%
-\contentsline {subsection}{\numberline {7.1.3}Ecuaciones No Homogeneas}{131}{subsection.7.1.3}%
-\contentsline {subsection}{\numberline {7.1.4}Ejemplos}{131}{subsection.7.1.4}%
-\contentsline {section}{\numberline {7.2}Ecuaciones Diferenciales Lineales Homog\'eneas de Segundo Orden con Coeficientes Constantes}{132}{section.7.2}%
-\contentsline {subsection}{\numberline {7.2.1}La ecuaci\'on Caracter\'istica}{132}{subsection.7.2.1}%
-\contentsline {subsection}{\numberline {7.2.2}La Soluci\'on General}{132}{subsection.7.2.2}%
-\contentsline {subsection}{\numberline {7.2.3}Caso 1. $\lambda _{1}, \lambda _{2}\in \PazoBB {R}, \lambda _{1}\neq \lambda _{2}.$ }{133}{subsection.7.2.3}%
-\contentsline {subsection}{\numberline {7.2.4}Caso 2. $\lambda =a\pm ib\in \PazoBB {C}, b\neq 0.$}{133}{subsection.7.2.4}%
-\contentsline {subsection}{\numberline {7.2.5}Caso 3. $\lambda _{1}=\lambda _{2}.$}{133}{subsection.7.2.5}%
-\contentsline {section}{\numberline {7.3}Ecuaciones Diferenciales Lineales Homog\'eneas de $n-$\'esimo Orden con Coeficientes Constantes}{134}{section.7.3}%
-\contentsline {subsection}{\numberline {7.3.1}La soluci\'on general}{134}{subsection.7.3.1}%
-\contentsline {subsection}{\numberline {7.3.2}Ejemplos}{135}{subsection.7.3.2}%
-\contentsline {subsection}{\numberline {7.3.3}Ejemplos}{135}{subsection.7.3.3}%
-\contentsline {section}{\numberline {7.4}M\'etodo de Coeficientes Indeterminados}{135}{section.7.4}%
-\contentsline {subsection}{\numberline {7.4.1}Forma simple del m\'etodo}{136}{subsection.7.4.1}%
-\contentsline {subsection}{\numberline {7.4.2}Caso $\phi (x)=p_{n(x)}$}{136}{subsection.7.4.2}%
-\contentsline {subsection}{\numberline {7.4.3}Caso $\phi (x)=ke^{\alpha x}$}{136}{subsection.7.4.3}%
-\contentsline {subsection}{\numberline {7.4.4}Caso $\phi (x)=ke^{\alpha x}$}{136}{subsection.7.4.4}%
-\contentsline {subsection}{\numberline {7.4.5}Caso $\phi (x)=k_{1}\qopname \relax o{sin}(\beta x)+k_{2}\qopname \relax o{cos}(\beta x)$}{137}{subsection.7.4.5}%
-\contentsline {subsection}{\numberline {7.4.6}Generalizaciones}{137}{subsection.7.4.6}%
-\contentsline {subsection}{\numberline {7.4.7}Principio de superposición}{138}{subsection.7.4.7}%
-\contentsline {section}{\numberline {7.5}Aplicaciones}{138}{section.7.5}%
-\contentsline {subsection}{\numberline {7.5.1}Resortes}{138}{subsection.7.5.1}%
-\contentsline {subsection}{\numberline {7.5.2}Resortes}{138}{subsection.7.5.2}%
-\contentsline {subsection}{\numberline {7.5.3}Ley de Hooke}{138}{subsection.7.5.3}%
-\contentsline {subsection}{\numberline {7.5.4}Círcuitos eléctricos}{139}{subsection.7.5.4}%
-\contentsline {section}{\numberline {7.6}Variaci\'on de parametros}{140}{section.7.6}%
-\contentsline {subsection}{\numberline {7.6.1}El M\'etodo}{141}{subsection.7.6.1}%
-\contentsline {subsection}{\numberline {7.6.2}Ejemplos}{141}{subsection.7.6.2}%
-\contentsline {subsection}{\numberline {7.6.3}Ejemplos de valor inicial}{142}{subsection.7.6.3}%
-\contentsline {chapter}{\numberline {8}Transformada de Laplace}{143}{chapter.8}%
-\contentsline {section}{\numberline {8.1}La Transformada de Laplace}{143}{section.8.1}%
-\contentsline {subsection}{\numberline {8.1.1}Definici\'on}{143}{subsection.8.1.1}%
-\contentsline {subsection}{\numberline {8.1.2}Ejemplos}{143}{subsection.8.1.2}%
-\contentsline {subsection}{\numberline {8.1.3}Propiedades}{145}{subsection.8.1.3}%
-\contentsline {subsection}{\numberline {8.1.4}Propiedades de la Transformada de Laplace}{145}{subsection.8.1.4}%
-\contentsline {section}{\numberline {8.2}Transformada Inversa de Laplace}{145}{section.8.2}%
-\contentsline {subsection}{\numberline {8.2.1}Definici\'on}{145}{subsection.8.2.1}%
-\contentsline {subsection}{\numberline {8.2.2}Manipulaci\'on de denominadores}{146}{subsection.8.2.2}%
-\contentsline {subsection}{\numberline {8.2.3}Ejemplos}{146}{subsection.8.2.3}%
-\contentsline {section}{\numberline {8.3}E.D. Lineales con Coeficientes Constantes}{146}{section.8.3}%
-\contentsline {subsection}{\numberline {8.3.1}Transformadas de Laplace de Derivadas}{146}{subsection.8.3.1}%
-\contentsline {subsection}{\numberline {8.3.2}Casos Especiales}{147}{subsection.8.3.2}%
-\contentsline {subsection}{\numberline {8.3.3}Ejemplos}{147}{subsection.8.3.3}%
-\contentsline {section}{\numberline {8.4}Transformada de funciones discontinuas}{148}{section.8.4}%
-\contentsline {subsection}{\numberline {8.4.1}Convoluci\'on}{148}{subsection.8.4.1}%
-\contentsline {subsection}{\numberline {8.4.2}Funci\'on Escal\'on}{148}{subsection.8.4.2}%
-\contentsline {subsection}{\numberline {8.4.3}Traslaciones}{149}{subsection.8.4.3}%
-\contentsline {subsection}{\numberline {8.4.4}Ejemplos}{149}{subsection.8.4.4}%
-\contentsline {chapter}{\numberline {9}Sistemas de Ecuaciones Diferenciales}{151}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Proyecto final: Ecuaciones diferenciales}{151}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Solución de Sistemas Lineales}{158}{section.9.2}%
-\contentsline {chapter}{\numberline {10}Bibliograf\'{\i }a}{161}{chapter.10}%
+\contentsline {chapter}{\numberline {1}Cálculo Diferencial}{7}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Límites y continuidad}{7}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Límites}{7}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Continuidad}{8}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}Ejemplos}{8}{subsection.1.1.3}%
+\contentsline {section}{\numberline {1.2}Derivadas}{9}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Fórmulas de derivación}{9}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Ejemplos}{10}{subsection.1.2.2}%
+\contentsline {section}{\numberline {1.3}Derivación implícita}{12}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Derivación logarítmica}{14}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Linealización}{16}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Optimización univariada}{17}{section.1.6}%
+\contentsline {subsection}{\numberline {1.6.1}Optimización aplicada}{19}{subsection.1.6.1}%
+\contentsline {section}{\numberline {1.7}Análisis de Gráficas}{23}{section.1.7}%
+\contentsline {chapter}{\numberline {2}Cálculo Integral}{27}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Antiderivadas}{27}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Integración por sustitución}{28}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Ejemplos Resueltos}{30}{subsection.2.1.2}%
+\contentsline {section}{\numberline {2.2}La integral definida}{30}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Notación ``Sigma''}{30}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Linealidad}{31}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Área bajo la curva}{31}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Propiedades de la Integral Definida}{34}{subsection.2.2.4}%
+\contentsline {subsection}{\numberline {2.2.5}Propiedades: Linealidad}{34}{subsection.2.2.5}%
+\contentsline {subsection}{\numberline {2.2.6}Propiedades: Límites}{34}{subsection.2.2.6}%
+\contentsline {subsection}{\numberline {2.2.7}Ejemplos Resueltos}{34}{subsection.2.2.7}%
+\contentsline {section}{\numberline {2.3}El Teorema Fundamental del Cálculo}{34}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Valor promedio de una función}{34}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Valor promedio de una función}{35}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Enunciado del T.F.C}{35}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Ejemplos Resueltos}{36}{subsection.2.3.4}%
+\contentsline {section}{\numberline {2.4}Integraci\'on por partes}{38}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Ejemplos Resueltos}{39}{subsection.2.4.1}%
+\contentsline {section}{\numberline {2.5}Fracciones parciales}{40}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Método de Fracciones Parciales}{41}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Caso I. $D(x)$ es producto de factores lineales distintos}{41}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Regla General para Caso 1}{41}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.4}Caso 2. $D(x)$ es producto de factores lineales repetidos.}{42}{subsection.2.5.4}%
+\contentsline {subsection}{\numberline {2.5.5}Regla General para el Caso 2.}{42}{subsection.2.5.5}%
+\contentsline {subsection}{\numberline {2.5.6}Caso 3. Factores cuadráticos irreducibles distintos, y lineales repetidos}{42}{subsection.2.5.6}%
+\contentsline {subsection}{\numberline {2.5.7}Caso IV. Factores cuadráticos irreducibles repetidos}{42}{subsection.2.5.7}%
+\contentsline {section}{\numberline {2.6}Técnicas de integaci\'on trigonométrica}{42}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Integrados trigonométricos}{42}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}Caso 1}{43}{subsection.2.6.2}%
+\contentsline {subsection}{\numberline {2.6.3}Tipo 1.1}{43}{subsection.2.6.3}%
+\contentsline {subsection}{\numberline {2.6.4}Tipo 1.2}{43}{subsection.2.6.4}%
+\contentsline {subsection}{\numberline {2.6.5}Caso 2}{43}{subsection.2.6.5}%
+\contentsline {subsection}{\numberline {2.6.6}Tipo 2.1}{43}{subsection.2.6.6}%
+\contentsline {subsection}{\numberline {2.6.7}Tipo 2.2}{44}{subsection.2.6.7}%
+\contentsline {subsection}{\numberline {2.6.8}Tipo 2.3}{44}{subsection.2.6.8}%
+\contentsline {subsection}{\numberline {2.6.9}Caso 3}{44}{subsection.2.6.9}%
+\contentsline {subsection}{\numberline {2.6.10}Sustituci\'on trigonométrica}{45}{subsection.2.6.10}%
+\contentsline {subsection}{\numberline {2.6.11}Estrategia I}{45}{subsection.2.6.11}%
+\contentsline {subsection}{\numberline {2.6.12}Estrategia II}{45}{subsection.2.6.12}%
+\contentsline {subsection}{\numberline {2.6.13}Estrategia III}{45}{subsection.2.6.13}%
+\contentsline {section}{\numberline {2.7}\'Area y longitud de arco}{45}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}\'Area entre una curva y el eje vertical}{45}{subsection.2.7.1}%
+\contentsline {subsection}{\numberline {2.7.2}\'Area entre curvas}{47}{subsection.2.7.2}%
+\contentsline {subsection}{\numberline {2.7.3}Longitud de arco}{47}{subsection.2.7.3}%
+\contentsline {subsection}{\numberline {2.7.4}Ejemplos}{49}{subsection.2.7.4}%
+\contentsline {section}{\numberline {2.8}Volumen}{49}{section.2.8}%
+\contentsline {subsection}{\numberline {2.8.1}F\'ormula del Disco}{51}{subsection.2.8.1}%
+\contentsline {subsection}{\numberline {2.8.2}M\'etodo de Washer}{52}{subsection.2.8.2}%
+\contentsline {subsection}{\numberline {2.8.3}M\'etodo de las capas cil\'indricas}{52}{subsection.2.8.3}%
+\contentsline {subsection}{\numberline {2.8.4}Diferencia de Capas}{54}{subsection.2.8.4}%
+\contentsline {subsection}{\numberline {2.8.5}Secciones trasnversales (rebanadas)}{56}{subsection.2.8.5}%
+\contentsline {section}{\numberline {2.9}Integrales impropias}{56}{section.2.9}%
+\contentsline {subsection}{\numberline {2.9.1}L\'imites al infinito}{56}{subsection.2.9.1}%
+\contentsline {subsection}{\numberline {2.9.2}Discontinuidades del integrando}{57}{subsection.2.9.2}%
+\contentsline {section}{\numberline {2.10}Área de Superficies de Revoluci\'on}{58}{section.2.10}%
+\contentsline {chapter}{\numberline {3}Cálculo en varias variables}{61}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Representación paramétrica de curvas}{61}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Ecuaciones paramétricas}{61}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Longitud de arco}{62}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Ejemplos}{62}{subsection.3.1.3}%
+\contentsline {section}{\numberline {3.2}Derivadas Parciales}{63}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Objetivos del aprendizaje}{63}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Derivadas parciales de primer orden}{63}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Derivadas parciales de primer orden}{63}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Algunas propiedades y f\'ormulas}{63}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Cálculo de derivadas parciales}{64}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.6}Clasificaci\'on de Puntos Cr\'iticos}{65}{subsection.3.2.6}%
+\contentsline {subsection}{\numberline {3.2.7}Hessiano de una funci\'on}{67}{subsection.3.2.7}%
+\contentsline {chapter}{\numberline {4}Bibliograf\'{\i }a}{69}{chapter.4}%
 \contentsfinish 
