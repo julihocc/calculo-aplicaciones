@@ -13,9 +13,9 @@
 \contentsline {section}{\numberline {1.5}Linealización}{12}{section.1.5}%
 \contentsline {section}{\numberline {1.6}Optimización univariada}{14}{section.1.6}%
 \contentsline {subsection}{Optimización aplicada}{16}{subsection*.8}%
-\contentsline {section}{\numberline {1.7}Análisis de Gráficas}{16}{section.1.7}%
-\contentsline {section}{\numberline {1.8}Problemas}{22}{section.1.8}%
-\contentsline {subsection}{Límites y continuidad}{22}{subsection*.9}%
+\contentsline {section}{\numberline {1.7}Análisis de Gráficas}{21}{section.1.7}%
+\contentsline {section}{\numberline {1.8}Problemas de práctica}{22}{section.1.8}%
+\contentsline {subsection}{Límites y continuidad}{23}{subsection*.9}%
 \contentsline {subsection}{Derivadas}{23}{subsection*.10}%
 \contentsline {chapter}{\numberline {2}Cálculo Integral}{25}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Antiderivadas}{25}{section.2.1}%
@@ -44,13 +44,13 @@
 \contentsline {subsection}{Regla General para el Caso 2.}{40}{subsection*.29}%
 \contentsline {subsection}{Caso 3. Factores cuadráticos irreducibles distintos, y lineales repetidos}{40}{subsection*.30}%
 \contentsline {subsection}{Caso IV. Factores cuadráticos irreducibles repetidos}{40}{subsection*.31}%
-\contentsline {section}{\numberline {2.6}Técnicas de integaci\'on trigonométrica}{40}{section.2.6}%
-\contentsline {subsection}{Integrados trigonométricos}{40}{subsection*.32}%
+\contentsline {section}{\numberline {2.6}Técnicas de integaci\'on trigonométrica}{41}{section.2.6}%
+\contentsline {subsection}{Integrados trigonométricos}{41}{subsection*.32}%
 \contentsline {subsection}{Caso 1}{41}{subsection*.33}%
 \contentsline {subsection}{Tipo 1.1}{41}{subsection*.34}%
 \contentsline {subsection}{Tipo 1.2}{41}{subsection*.35}%
 \contentsline {subsection}{Caso 2}{41}{subsection*.36}%
-\contentsline {subsection}{Tipo 2.1}{41}{subsection*.37}%
+\contentsline {subsection}{Tipo 2.1}{42}{subsection*.37}%
 \contentsline {subsection}{Tipo 2.2}{42}{subsection*.38}%
 \contentsline {subsection}{Tipo 2.3}{42}{subsection*.39}%
 \contentsline {subsection}{Caso 3}{42}{subsection*.40}%
@@ -61,7 +61,7 @@
 \contentsline {section}{\numberline {2.7}\'Area y longitud de arco}{43}{section.2.7}%
 \contentsline {subsection}{\'Area entre una curva y el eje vertical}{43}{subsection*.45}%
 \contentsline {subsection}{\'Area entre curvas}{45}{subsection*.46}%
-\contentsline {subsection}{Longitud de arco}{45}{subsection*.47}%
+\contentsline {subsection}{Longitud de arco}{46}{subsection*.47}%
 \contentsline {subsection}{Ejemplos}{47}{subsection*.48}%
 \contentsline {section}{\numberline {2.8}Volumen}{47}{section.2.8}%
 \contentsline {subsection}{F\'ormula del Disco}{49}{subsection*.49}%
