@@ -1,37 +1,83 @@
 \section{Límites y continuidad}
 
-\subsection{Límites}
+\subsection{Definición informal de límite}
 
- Diremos que la función tiene un \emph{límite $L$ cuando $x$ aproxima $a$} si para cada $\epsilon >0$, podemos encontrar $\delta >0$ tal que
- \begin{align*}
-  \abs{f(x)-l} < \epsilon
-  \end{align*}
-siempre que
-\begin{align*}
- 0 < \abs{x-a} < \delta.
- \end{align*}
+De manera informal, el límite $ L $ de una función $ f(x) $ cuando $ x $ se aproxima a un valor $ c $ es el valor al que esperamos que se acerque $ f(x) $.
 
-%%%%%%%%%%%%%%%%%%%%%
+Si tal valor existe, diremos que $ f(x)\to L $ ( que se lee  $f(x)  $ tiende a $ L $) cuando $ x \to  $ (que leeremos como $ x $ tiende a $ c $).
 
-  En ese caso, escribimos
-  \begin{align*}
-   \lim_{x \to a} f(x) = L
-   \end{align*}
+Otra manera de escribir este resultado es
+\[ L = \lim_{x\to c} f(x) ,\]
+que se lee como $ L $ es el límite de $ f(x) $ cuando $ x $ tiende a $ c $.
 
-%%%%%%%%%%%%%%%%%%%%%
 
-  \begin{resuelto}
-   Calcula los siguientes límites, trazando las gráficas correspondientes:
-   \begin{enumerate}[(i)]
-     %NUEVO ITEM
-     \item $\lim_{x\to 1}\left( x^{2}-4x+8 \right)$
-     \item $\lim_{x\to 2}\dfrac{x^{2}-4}{x-2}$
-     \item $\lim_{x\to 0}\dfrac{\sin(x)}{x}$
+\begin{resuelto}
+	Estima los siguientes límites, trazando las gráficas correspondientes:
+	\begin{enumerate}[(i)]
+		%NUEVO ITEM
+		\item $\lim_{x\to 1}\left( x^{2}-4x+8 \right)$
+		\item $ \lim_{x\to 2} f(x) $ donde
+		$$f(x)= \begin{cases}
+			x^{2} & x\neq 2 \\
+			0 & x =2
+		\end{cases}$$
+		\item $\lim_{x\to 2}\dfrac{x^{2}-4}{x-2}$
+		\item $\lim_{x\to 0}\dfrac{\sin(x)}{x}$
+		\item $ \lim_{x \to 0} x^{x} $
+	\end{enumerate}
+	¿Qué ocurre si intentas evaluar inmediatamente en la función?
+\end{resuelto}
+
+Sin embargo, $ x $ puede tender a $ c $ en dos direcciones:
+\begin{enumerate}
+	\item $ x $ tiende a $ c $ por la izquierda, es decir, $ x $ es menor a $ c $ pero se incrementa poco a poco, y se acerca a $ c $ cada vez más. En ese caso, escribiremos $ x\to c^{-} .$
+	\item $ x $ tiende a $ c $ por la derecha, es decir, $ x $ es mayor a $ c $ pero se dencrementa poco a poco, y se acerca a $ c $ cada vez más. En ese caso, escribiremos $ x\to c^{+} .$
 \end{enumerate}
-  \end{resuelto}
+
+\begin{observacion}
+	A estos límites se le conoce como límites laterales. Cuando ambos límites laterales coinciden, entonces el valor común es \textbf{el límite}.
+\end{observacion}
+
+\begin{observacion}
+	Nota los súper-índice en la $ c^{-}, c^{+} $. Es muy fácil pasarlos por alto al momento de calcular los límites laterales, o confundirlas con un exponente.
+\end{observacion}
 
 
-%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Definición formal de límite}
+
+\begin{definicion}
+
+	Diremos que la función tiene un \emph{límite $L$ cuando $x$ aproxima $a$} si para cada $\epsilon >0$, podemos encontrar $\delta >0$ tal que
+	\begin{align*}
+		\abs{f(x)-l} < \epsilon
+	\end{align*}
+	siempre que
+	\begin{align*}
+		0 < \abs{x-a} < \delta.
+	\end{align*}
+
+ En ese caso, escribimos
+\begin{align*}
+	\lim_{x \to a} f(x) = L
+\end{align*}
+\end{definicion}
+
+
+\begin{resuelto}
+	Demostrar por definición que $$\lim_{x\to 2}f(x)=4$$ si
+	\begin{enumerate}[(i)]
+		%NUEVO ITEM
+		\item $f(x)=x^{2}$
+
+		\item $f(x)= \begin{cases}
+			x^{2} & x\neq 2 \\
+			0 & x =2
+		\end{cases}$
+	\end{enumerate}
+\end{resuelto}
+
+
 \begin{proposicion}
 
 	Si $\lim_{x \to a}f_{1}(x)= L_{1}$ y $\lim_{x \to a }f_{2}(x)= L_{2}$, entonces
@@ -45,7 +91,15 @@ siempre que
 	\end{enumerate}
 \end{proposicion}
 
-%%%%%%%%%%%%%%%%%%%%%
+
+\begin{resuelto}
+	Demostrar que si $\lim_{x\to a}f_{1}(x)=l_{1}$ y $\lim_{x\to a}f_{2}(x)=l_{2}$, entonces
+	\begin{align*}
+		\lim_{x\to a}\left( f_{1}(x)+f_{2}(x) \right)=l_{1}+l_{2}
+	\end{align*}
+\end{resuelto}
+
+
 \subsection{Continuidad}
 
   Diremos que una función es \emph{continua en el punto $x=a$} si
@@ -59,14 +113,23 @@ siempre que
    f(x)=
     \begin{cases}
 \dfrac{x^2-4}{x-2}& x\neq 2\\
-6 & x= 2
+0 & x= 2
 \end{cases}
     \end{align*}
-    es \emph{discontinua} en $x=2$.
-
-    En ese caso, decimos que $x=2$ es una \emph{discontinuidad}.
+    es \emph{discontinua} en $x=2$.    En ese caso, decimos que $x=2$ es una \emph{discontinuidad}.
   \end{resuelto}
 
+\begin{resuelto}
+
+ \begin{enumerate}
+ 	\item Considera la función
+ 	\[ f(x) = \dfrac{\sin(x)}{x}, x\neq 0 .\]
+
+ 	¿Qué valor debería tener $ f(0) $ para que esta función sea continua? \href{https://mathworld.wolfram.com/SincFunction.html}{Esta función, definida así en toda la recta real se le llama $ sinc(x) $. }
+ 	\item ¿Es posible hacer algo similar con
+ 	$ g(x) = x^x $, es decir, hacerla continua en $ x=0 $?
+ \end{enumerate}
+\end{resuelto}
 
 \begin{definicion}
 	Si $f(x)$ es continua en cada punto del intervalo $x_{1}<x<x_{2}$, entonces diremos que es continua en dicho intervalo.
