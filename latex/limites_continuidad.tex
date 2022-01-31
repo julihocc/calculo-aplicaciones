@@ -16,11 +16,11 @@ que se lee como $ L $ es el límite de $ f(x) $ cuando $ x $ tiende a $ c $.
 	\begin{enumerate}[(i)]
 		%NUEVO ITEM
 		\item $\lim_{x\to 1}\left( x^{2}-4x+8 \right)$
-		\item $ \lim_{x\to 2} f(x) $ donde
-		$$f(x)= \begin{cases}
-			x^{2} & x\neq 2 \\
-			0 & x =2
-		\end{cases}$$
+%		\item $ \lim_{x\to 2} f(x) $ donde
+%		$$f(x)= \begin{cases}
+%			x^{2} & x\neq 2 \\
+%			0 & x =2
+%		\end{cases}$$
 		\item $\lim_{x\to 2}\dfrac{x^{2}-4}{x-2}$
 		\item $\lim_{x\to 0}\dfrac{\sin(x)}{x}$
 		\item $ \lim_{x \to 0} x^{x} $
@@ -42,7 +42,14 @@ Sin embargo, $ x $ puede tender a $ c $ en dos direcciones:
 	Nota los súper-índice en la $ c^{-}, c^{+} $. Es muy fácil pasarlos por alto al momento de calcular los límites laterales, o confundirlas con un exponente.
 \end{observacion}
 
-
+\begin{resuelto}
+	Calcula los límites laterales de las siguientes funciones en cuando $ x $ tiende a cero y determina si existe el límite.
+	\begin{enumerate}
+		\item $ f(x) = |x| $
+		\item $ g(x) = \operatorname{RELU}(x) $
+		\item $ H(x) $, la función de Heaviside.
+	\end{enumerate}
+\end{resuelto}
 
 \subsection{Definición formal de límite}
 
@@ -65,16 +72,7 @@ Sin embargo, $ x $ puede tender a $ c $ en dos direcciones:
 
 
 \begin{resuelto}
-	Demostrar por definición que $$\lim_{x\to 2}f(x)=4$$ si
-	\begin{enumerate}[(i)]
-		%NUEVO ITEM
-		\item $f(x)=x^{2}$
-
-		\item $f(x)= \begin{cases}
-			x^{2} & x\neq 2 \\
-			0 & x =2
-		\end{cases}$
-	\end{enumerate}
+	Demostrar por definición que $$\lim_{x\to 2}x^2=4$$.
 \end{resuelto}
 
 
@@ -147,3 +145,13 @@ Sin embargo, $ x $ puede tender a $ c $ en dos direcciones:
 \end{enumerate}
   \end{proposicion}
 
+\begin{resuelto}
+	Para cada una de las siguientes funciones, determina el intervalo maximal en el que son continuas:
+	\begin{enumerate}
+		\item polinomios
+		\item exponenciales
+		\item logaritmos
+		\item trigonométricas
+		\item inversas trigonométricas
+	\end{enumerate}
+\end{resuelto}

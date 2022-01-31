@@ -4,19 +4,19 @@
 \contentsline {subsection}{Definición informal de límite}{5}{subsection*.2}%
 \contentsline {subsection}{Definición formal de límite}{6}{subsection*.3}%
 \contentsline {subsection}{Continuidad}{7}{subsection*.4}%
-\contentsline {section}{\numberline {1.2}Derivadas}{7}{section.1.2}%
-\contentsline {subsection}{Primeras definiciones}{7}{subsection*.5}%
+\contentsline {section}{\numberline {1.2}Derivadas}{8}{section.1.2}%
+\contentsline {subsection}{Primeras definiciones}{8}{subsection*.5}%
 \contentsline {subsection}{Interpretación geométrica}{8}{subsection*.6}%
-\contentsline {subsection}{Relación con continuidad}{8}{subsection*.7}%
-\contentsline {subsection}{Fórmulas de derivación}{8}{subsection*.8}%
-\contentsline {section}{\numberline {1.3}Derivación implícita}{9}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Derivación logarítmica}{11}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Linealización}{13}{section.1.5}%
+\contentsline {subsection}{Relación con continuidad}{9}{subsection*.7}%
+\contentsline {subsection}{Fórmulas de derivación}{9}{subsection*.8}%
+\contentsline {section}{\numberline {1.3}Derivación implícita}{10}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Derivación logarítmica}{12}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Linealización}{14}{section.1.5}%
 \contentsline {section}{\numberline {1.6}Optimización univariada}{15}{section.1.6}%
 \contentsline {subsection}{Optimización aplicada}{17}{subsection*.9}%
-\contentsline {section}{\numberline {1.7}Análisis de Gráficas}{22}{section.1.7}%
+\contentsline {section}{\numberline {1.7}Análisis de Gráficas}{21}{section.1.7}%
 \contentsline {section}{\numberline {1.8}Problemas de práctica}{23}{section.1.8}%
-\contentsline {subsection}{Derivadas}{24}{subsection*.10}%
+\contentsline {subsection}{Derivadas}{23}{subsection*.10}%
 \contentsline {chapter}{\numberline {2}Cálculo Integral}{27}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Antiderivadas}{27}{section.2.1}%
 \contentsline {subsection}{Integración por sustitución}{28}{subsection*.11}%
