@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2022.1.29)  1 FEB 2022 05:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2022.1.29)  1 FEB 2022 05:51
 entering extended mode
 **./[C√ÅLCULO].tex
 ([C√ÅLCULO].tex
@@ -1518,19 +1518,19 @@ LaTeX Info: Redefining \% on input line 1.
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 41.
+(Font)              <10.95> on input line 40.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 41.
+(Font)              <8> on input line 40.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 41.
+(Font)              scaled to size 11.40997pt on input line 40.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 41.
+(Font)              scaled to size 8.33606pt on input line 40.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 11.40997pt on input line 41.
+(Font)              scaled to size 11.40997pt on input line 40.
 LaTeX Font Info:    Font shape `U/msb/m/n' will be
-(Font)              scaled to size 8.33606pt on input line 41.
+(Font)              scaled to size 8.33606pt on input line 40.
  [4]
-Overfull \hbox (1.91995pt too wide) detected at line 75
+Overfull \hbox (1.91995pt too wide) detected at line 74
 \T1/qbk/m/it/12 2.10 
  []
 
@@ -1584,26 +1584,26 @@ Package hyperref Info: bookmark level for unknown proposicion defaults to 0 on
 input line 80.
  [8]) (derivadas.tex [9]
 LaTeX Font Info:    Trying to load font information for U+fplmbb on input line 
-73.
+76.
 
 (C:\Users\julih\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ufplmbb.fd
 File: ufplmbb.fd 2003/10/30 Fontinst v1.914 font definitions for U/fplmbb.
 )
 [10]
-<./calculo/formulas_derivadas_01.png, id=475, 609.77812pt x 165.61874pt>
+<./calculo/formulas_derivadas_01.png, id=477, 609.77812pt x 165.61874pt>
 File: ./calculo/formulas_derivadas_01.png Graphic file (type png)
 <use ./calculo/formulas_derivadas_01.png>
 Package pdftex.def Info: ./calculo/formulas_derivadas_01.png  used on input lin
-e 88.
+e 91.
 (pdftex.def)             Requested size: 218.39905pt x 59.31691pt.
-<./calculo/formulas_derivadas_02.png, id=476, 612.03656pt x 332.74312pt>
+<./calculo/formulas_derivadas_02.png, id=478, 612.03656pt x 332.74312pt>
 File: ./calculo/formulas_derivadas_02.png Graphic file (type png)
 <use ./calculo/formulas_derivadas_02.png>
 Package pdftex.def Info: ./calculo/formulas_derivadas_02.png  used on input lin
-e 99.
+e 102.
 (pdftex.def)             Requested size: 218.39905pt x 118.73643pt.
- [11 <./calculo/formulas_derivadas_01.png (PNG copy)> <./calculo/formulas_deriv
-adas_02.png (PNG copy)>]) (derivacion_implicita.tex
+) (derivacion_implicita.tex [11 <./calculo/formulas_derivadas_01.png (PNG copy)
+> <./calculo/formulas_derivadas_02.png (PNG copy)>]
 Package hyperref Info: bookmark level for unknown solucion defaults to 0 on inp
 ut line 15.
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 3
@@ -1613,7 +1613,7 @@ LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 3
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [12])
 (derivacion_logaritmica.tex [13] [14]) (linealizacion.tex [15]
-<./calculo/sqrt-linear.png, id=548, 335.3328pt x 224.5188pt>
+<./calculo/sqrt-linear.png, id=549, 335.3328pt x 224.5188pt>
 File: ./calculo/sqrt-linear.png Graphic file (type png)
 <use ./calculo/sqrt-linear.png>
 Package pdftex.def Info: ./calculo/sqrt-linear.png  used on input line 38.
@@ -1634,13 +1634,13 @@ lm/m/n/10 = \OT1/lmr/m/n/10 2.02484567313.$[]
 Package hyperref Info: bookmark level for unknown teorema defaults to 0 on inpu
 t line 14.
  [17]
-<./calculo/optimizacion.png, id=579, 1878.7791pt x 1261.8342pt>
+<./calculo/optimizacion.png, id=580, 1878.7791pt x 1261.8342pt>
 File: ./calculo/optimizacion.png Graphic file (type png)
 <use ./calculo/optimizacion.png>
 Package pdftex.def Info: ./calculo/optimizacion.png  used on input line 95.
 (pdftex.def)             Requested size: 127.08446pt x 85.35826pt.
  [18]
-<./calculo/thomas_04_36_a.png, id=600, 438.438pt x 505.28775pt>
+<./calculo/thomas_04_36_a.png, id=601, 438.438pt x 505.28775pt>
 File: ./calculo/thomas_04_36_a.png Graphic file (type png)
 <use ./calculo/thomas_04_36_a.png>
 Package pdftex.def Info: ./calculo/thomas_04_36_a.png  used on input line 158.
@@ -1650,12 +1650,12 @@ Overfull \hbox (62.15254pt too wide) in paragraph at lines 158--160
  [][] 
  []
 
-<./calculo/thomas_04_36_b.png, id=601, 648.62325pt x 421.575pt>
+<./calculo/thomas_04_36_b.png, id=602, 648.62325pt x 421.575pt>
 File: ./calculo/thomas_04_36_b.png Graphic file (type png)
 <use ./calculo/thomas_04_36_b.png>
 Package pdftex.def Info: ./calculo/thomas_04_36_b.png  used on input line 167.
 (pdftex.def)             Requested size: 218.39905pt x 141.95056pt.
-<./calculo/thomas_04_38.png, id=602, 177.0615pt x 222.8325pt>
+<./calculo/thomas_04_38.png, id=603, 177.0615pt x 222.8325pt>
 File: ./calculo/thomas_04_38.png Graphic file (type png)
 <use ./calculo/thomas_04_38.png>
 Package pdftex.def Info: ./calculo/thomas_04_38.png  used on input line 182.
@@ -1668,7 +1668,7 @@ Overfull \hbox (30.65588pt too wide) in paragraph at lines 182--184
 [19 <./calculo/optimizacion.png>] [20 <./calculo/thomas_04_36_a.png (PNG copy)>
  <./calculo/thomas_04_36_b.png (PNG copy)>] [21 <./calculo/thomas_04_38.png (PN
 G copy)>]
-<./calculo/thomas_04_40.png, id=629, 712.46175pt x 495.0495pt>
+<./calculo/thomas_04_40.png, id=630, 712.46175pt x 495.0495pt>
 File: ./calculo/thomas_04_40.png Graphic file (type png)
 <use ./calculo/thomas_04_40.png>
 Package pdftex.def Info: ./calculo/thomas_04_40.png  used on input line 196.
@@ -1679,7 +1679,7 @@ Overfull \hbox (308.58684pt too wide) in paragraph at lines 196--199
  []
 
 [22 <./calculo/thomas_04_40.png (PNG copy)>]
-<./calculo/thomas_04_41.png, id=634, 248.127pt x 192.11775pt>
+<./calculo/thomas_04_41.png, id=635, 248.127pt x 192.11775pt>
 File: ./calculo/thomas_04_41.png Graphic file (type png)
 <use ./calculo/thomas_04_41.png>
 Package pdftex.def Info: ./calculo/thomas_04_41.png  used on input line 215.
@@ -1692,7 +1692,7 @@ Overfull \hbox (244.97433pt too wide) in paragraph at lines 215--218
 ) (analisis_graficas.tex [23 <./calculo/thomas_04_41.png (PNG copy)>]
 Package pdftex.def Info: Option `bb' equivalent to `viewport' with the pdftex d
 river on input line 20.
-<./calculo/puntos_inflexion.png, id=639, 738.50906pt x 273.27094pt>
+<./calculo/puntos_inflexion.png, id=640, 738.50906pt x 273.27094pt>
 File: ./calculo/puntos_inflexion.png Graphic file (type png)
 <use ./calculo/puntos_inflexion.png>
 Package pdftex.def Info: ./calculo/puntos_inflexion.png  used on input line 20.
@@ -1700,7 +1700,7 @@ Package pdftex.def Info: ./calculo/puntos_inflexion.png  used on input line 20.
 (pdftex.def)             Requested size: 230.96394pt x 85.35826pt.
 Package pdftex.def Info: Option `bb' equivalent to `viewport' with the pdftex d
 river on input line 29.
-<./calculo/puntos_silla.png, id=640, 737.75626pt x 269.50688pt>
+<./calculo/puntos_silla.png, id=641, 737.75626pt x 269.50688pt>
 File: ./calculo/puntos_silla.png Graphic file (type png)
 <use ./calculo/puntos_silla.png>
 Package pdftex.def Info: ./calculo/puntos_silla.png  used on input line 29.
@@ -1712,7 +1712,7 @@ LaTeX Warning: Reference `criterio:segunda' on page 25 undefined on input line
 
 Package pdftex.def Info: Option `bb' equivalent to `viewport' with the pdftex d
 river on input line 107.
-<./calculo/ejemplo_graficacion.png, id=655, 683.9151pt x 457.71pt>
+<./calculo/ejemplo_graficacion.png, id=656, 683.9151pt x 457.71pt>
 File: ./calculo/ejemplo_graficacion.png Graphic file (type png)
 <use ./calculo/ejemplo_graficacion.png>
 Package pdftex.def Info: ./calculo/ejemplo_graficacion.png  used on input line 
@@ -1727,18 +1727,18 @@ ut line 6.
 ]
 Cap\'{\i }tulo 2.
 (antiderivadas.tex [29]
-<./calculo/antiderivadas.png, id=716, 309.40594pt x 504.38437pt>
+<./calculo/antiderivadas.png, id=717, 309.40594pt x 504.38437pt>
 File: ./calculo/antiderivadas.png Graphic file (type png)
 <use ./calculo/antiderivadas.png>
 Package pdftex.def Info: ./calculo/antiderivadas.png  used on input line 166.
 (pdftex.def)             Requested size: 302.30457pt x 492.80188pt.
  [30] [31 <./calculo/antiderivadas.png>]
-Overfull \hbox (49.0095pt too wide) in paragraph at lines 181--182
+Overfull \hbox (68.40948pt too wide) in paragraph at lines 181--182
 [] 
  []
 
 ) (integral_definida.tex [32]
-<./calculo/tmp_h5b5ua.png, id=778, 564.4287pt x 422.0568pt>
+<./calculo/tmp_h5b5ua.png, id=779, 564.4287pt x 422.0568pt>
 File: ./calculo/tmp_h5b5ua.png Graphic file (type png)
 <use ./calculo/tmp_h5b5ua.png>
 Package pdftex.def Info: ./calculo/tmp_h5b5ua.png  used on input line 54.
@@ -1746,12 +1746,12 @@ Package pdftex.def Info: ./calculo/tmp_h5b5ua.png  used on input line 54.
 Package hyperref Info: bookmark level for unknown algoritmo defaults to 0 on in
 put line 63.
  [33 <./calculo/tmp_h5b5ua.png>]
-<./calculo/tmp_pIdKIc.png, id=797, 564.4287pt x 422.0568pt>
+<./calculo/tmp_pIdKIc.png, id=798, 564.4287pt x 422.0568pt>
 File: ./calculo/tmp_pIdKIc.png Graphic file (type png)
 <use ./calculo/tmp_pIdKIc.png>
 Package pdftex.def Info: ./calculo/tmp_pIdKIc.png  used on input line 108.
 (pdftex.def)             Requested size: 190.24962pt x 142.26378pt.
-<./calculo/tmp_pLz7nm.png, id=798, 564.4287pt x 422.0568pt>
+<./calculo/tmp_pLz7nm.png, id=799, 564.4287pt x 422.0568pt>
 File: ./calculo/tmp_pLz7nm.png Graphic file (type png)
 <use ./calculo/tmp_pLz7nm.png>
 Package pdftex.def Info: ./calculo/tmp_pLz7nm.png  used on input line 122.
@@ -1761,91 +1761,91 @@ Package pdftex.def Info: ./calculo/tmp_pLz7nm.png  used on input line 122.
 
 LaTeX Warning: Marginpar on page 37 moved.
 
-[37]
-<./calculo/sage0.png, id=862, 564.4287pt x 422.0568pt>
+[37] [38]
+<./calculo/sage0.png, id=875, 564.4287pt x 422.0568pt>
 File: ./calculo/sage0.png Graphic file (type png)
 <use ./calculo/sage0.png>
 Package pdftex.def Info: ./calculo/sage0.png  used on input line 143.
 (pdftex.def)             Requested size: 190.24962pt x 142.26378pt.
- [38]
-<./calculo/trapezoid.png, id=878, 941.76843pt x 380.17032pt>
+ [39 <./calculo/sage0.png>]
+<./calculo/trapezoid.png, id=898, 941.76843pt x 380.17032pt>
 File: ./calculo/trapezoid.png Graphic file (type png)
 <use ./calculo/trapezoid.png>
 Package pdftex.def Info: ./calculo/trapezoid.png  used on input line 212.
 (pdftex.def)             Requested size: 284.52756pt x 114.85829pt.
- [39 <./calculo/sage0.png>]) (integracion_por_partes.tex [40 <./calculo/trapezo
-id.png>] [41]) (fracciones_parciales.tex [42] [43]
+) (integracion_por_partes.tex [40 <./calculo/trapezoid.png>] [41]) (fracciones_
+parciales.tex [42] [43]
 Overfull \hbox (7.52005pt too wide) in paragraph at lines 143--143
 |[]\T1/qbk/m/it/10.95 Caso 3. Fac-to-res cua-dr·-ti-cos irre-du-ci-bles dis-tin
 -tos, y li-nea-
  []
 
 ) (integracion_trigonometrica.tex [44] [45] [46]) (area_longitud_arco.tex
-<./calculo/fig2901.png, id=1018, 489.32813pt x 273.27094pt>
+<./calculo/fig2901.png, id=1019, 489.32813pt x 273.27094pt>
 File: ./calculo/fig2901.png Graphic file (type png)
 <use ./calculo/fig2901.png>
 Package pdftex.def Info: ./calculo/fig2901.png  used on input line 10.
 (pdftex.def)             Requested size: 254.74327pt x 142.26378pt.
 
 [47]
-<./calculo/fig2902.png, id=1033, 434.37282pt x 380.17032pt>
+<./calculo/fig2902.png, id=1034, 434.37282pt x 380.17032pt>
 File: ./calculo/fig2902.png Graphic file (type png)
 <use ./calculo/fig2902.png>
 Package pdftex.def Info: ./calculo/fig2902.png  used on input line 31.
 (pdftex.def)             Requested size: 162.55138pt x 142.26378pt.
-<./calculo/fig2903.png, id=1035, 466.74374pt x 362.85562pt>
+<./calculo/fig2903.png, id=1036, 466.74374pt x 362.85562pt>
 File: ./calculo/fig2903.png Graphic file (type png)
 <use ./calculo/fig2903.png>
 Package pdftex.def Info: ./calculo/fig2903.png  used on input line 60.
 (pdftex.def)             Requested size: 109.79161pt x 85.35826pt.
  [48 <./calculo/fig2901.png> <./calculo/fig2902.png>]
-<./calculo/fig2904.png, id=1042, 483.30562pt x 353.82187pt>
+<./calculo/fig2904.png, id=1043, 483.30562pt x 353.82187pt>
 File: ./calculo/fig2904.png Graphic file (type png)
 <use ./calculo/fig2904.png>
 Package pdftex.def Info: ./calculo/fig2904.png  used on input line 86.
 (pdftex.def)             Requested size: 194.32915pt x 142.26378pt.
-<./calculo/fig2905.png, id=1043, 438.13687pt x 329.73187pt>
+<./calculo/fig2905.png, id=1044, 438.13687pt x 329.73187pt>
 File: ./calculo/fig2905.png Graphic file (type png)
 <use ./calculo/fig2905.png>
 Package pdftex.def Info: ./calculo/fig2905.png  used on input line 96.
 (pdftex.def)             Requested size: 189.03697pt x 142.26378pt.
-<./calculo/fig2906.png, id=1044, 395.97937pt x 322.95656pt>
+<./calculo/fig2906.png, id=1045, 395.97937pt x 322.95656pt>
 File: ./calculo/fig2906.png Graphic file (type png)
 <use ./calculo/fig2906.png>
 Package pdftex.def Info: ./calculo/fig2906.png  used on input line 107.
 (pdftex.def)             Requested size: 174.43085pt x 142.26378pt.
-<./calculo/fig2907.png, id=1046, 557.83406pt x 395.97937pt>
+<./calculo/fig2907.png, id=1047, 557.83406pt x 395.97937pt>
 File: ./calculo/fig2907.png Graphic file (type png)
 <use ./calculo/fig2907.png>
 Package pdftex.def Info: ./calculo/fig2907.png  used on input line 128.
 (pdftex.def)             Requested size: 200.41153pt x 142.26378pt.
  [49 <./calculo/fig2903.png> <./calculo/fig2904.png> <./calculo/fig2905.png>]
-<./calculo/fig2908.png, id=1054, 849.92531pt x 420.82219pt>
+<./calculo/fig2908.png, id=1055, 849.92531pt x 420.82219pt>
 File: ./calculo/fig2908.png Graphic file (type png)
 <use ./calculo/fig2908.png>
 Package pdftex.def Info: ./calculo/fig2908.png  used on input line 141.
 (pdftex.def)             Requested size: 287.32375pt x 142.26378pt.
  [50 <./calculo/fig2906.png> <./calculo/fig2907.png> <./calculo/fig2908.png>]) 
 (volumen.tex
-<./calculo/fig3001.png, id=1059, 779.91376pt x 449.42906pt>
+<./calculo/fig3001.png, id=1060, 779.91376pt x 449.42906pt>
 File: ./calculo/fig3001.png Graphic file (type png)
 <use ./calculo/fig3001.png>
 Package pdftex.def Info: ./calculo/fig3001.png  used on input line 16.
 (pdftex.def)             Requested size: 148.12564pt x 85.35826pt.
  [51]
-<./calculo/sage0501.png, id=1074, 565.1514pt x 422.0568pt>
+<./calculo/sage0501.png, id=1075, 565.1514pt x 422.0568pt>
 File: ./calculo/sage0501.png Graphic file (type png)
 <use ./calculo/sage0501.png>
 Package pdftex.def Info: ./calculo/sage0501.png  used on input line 51.
 (pdftex.def)             Requested size: 190.49321pt x 142.26378pt.
 
 [52 <./calculo/fig3001.png> <./calculo/sage0501.png>]
-<./calculo/sage0502.png, id=1084, 501.875pt x 501.875pt>
+<./calculo/sage0502.png, id=1085, 501.875pt x 501.875pt>
 File: ./calculo/sage0502.png Graphic file (type png)
 <use ./calculo/sage0502.png>
 Package pdftex.def Info: ./calculo/sage0502.png  used on input line 79.
 (pdftex.def)             Requested size: 142.26239pt x 142.26378pt.
-<./calculo/fig3003.png, id=1085, 277.035pt x 389.95688pt>
+<./calculo/fig3003.png, id=1086, 277.035pt x 389.95688pt>
 File: ./calculo/fig3003.png Graphic file (type png)
 <use ./calculo/fig3003.png>
 Package pdftex.def Info: ./calculo/fig3003.png  used on input line 103.
@@ -1855,7 +1855,7 @@ Package pdftex.def Info: ./calculo/fig3003.png  used on input line 103.
 Package wrapfig Warning: Collision between wrapping environments on input line 
 120.
 
-<./calculo/fig3004.png, id=1086, 515.67656pt x 425.33907pt>
+<./calculo/fig3004.png, id=1087, 515.67656pt x 425.33907pt>
 File: ./calculo/fig3004.png Graphic file (type png)
 <use ./calculo/fig3004.png>
 Package pdftex.def Info: ./calculo/fig3004.png  used on input line 122.
@@ -1872,7 +1872,7 @@ Package wrapfig Warning: Collision between wrapping environments on input line
 Package wrapfig Warning: wrapfigure used inside a conflicting environment on in
 put line 134.
 
-<./calculo/fig3005.png, id=1087, 313.9228pt x 386.94562pt>
+<./calculo/fig3005.png, id=1088, 313.9228pt x 386.94562pt>
 File: ./calculo/fig3005.png Graphic file (type png)
 <use ./calculo/fig3005.png>
 Package pdftex.def Info: ./calculo/fig3005.png  used on input line 136.
@@ -1882,22 +1882,22 @@ Package pdftex.def Info: ./calculo/fig3005.png  used on input line 136.
 Package wrapfig Warning: Stationary wrapfigure forced to float on input line 14
 1.
 
-<./calculo/fig3006.png, id=1096, 438.8897pt x 392.21532pt>
+<./calculo/fig3006.png, id=1097, 438.8897pt x 392.21532pt>
 File: ./calculo/fig3006.png Graphic file (type png)
 <use ./calculo/fig3006.png>
 Package pdftex.def Info: ./calculo/fig3006.png  used on input line 151.
 (pdftex.def)             Requested size: 127.35512pt x 113.81102pt.
-<./calculo/sage0503.png, id=1098, 565.1514pt x 422.0568pt>
+<./calculo/sage0503.png, id=1099, 565.1514pt x 422.0568pt>
 File: ./calculo/sage0503.png Graphic file (type png)
 <use ./calculo/sage0503.png>
 Package pdftex.def Info: ./calculo/sage0503.png  used on input line 190.
 (pdftex.def)             Requested size: 190.49321pt x 142.26378pt.
-<./calculo/sage0504.png, id=1099, 501.875pt x 501.875pt>
+<./calculo/sage0504.png, id=1100, 501.875pt x 501.875pt>
 File: ./calculo/sage0504.png Graphic file (type png)
 <use ./calculo/sage0504.png>
 Package pdftex.def Info: ./calculo/sage0504.png  used on input line 201.
 (pdftex.def)             Requested size: 199.16888pt x 199.16928pt.
-<./calculo/fig3007.png, id=1100, 602.25pt x 412.54124pt>
+<./calculo/fig3007.png, id=1101, 602.25pt x 412.54124pt>
 File: ./calculo/fig3007.png Graphic file (type png)
 <use ./calculo/fig3007.png>
 Package pdftex.def Info: ./calculo/fig3007.png  used on input line 214.
@@ -1908,7 +1908,7 @@ g> <./calculo/sage0504.png (PNG copy)>]
 Package wrapfig Warning: wrapfigure used inside a conflicting environment on in
 put line 241.
 
-<./calculo/sage0505.png, id=1114, 563.706pt x 419.8887pt>
+<./calculo/sage0505.png, id=1115, 563.706pt x 419.8887pt>
 File: ./calculo/sage0505.png Graphic file (type png)
 <use ./calculo/sage0505.png>
 Package pdftex.def Info: ./calculo/sage0505.png  used on input line 243.
@@ -1917,7 +1917,7 @@ Package pdftex.def Info: ./calculo/sage0505.png  used on input line 243.
 Package wrapfig Warning: Stationary wrapfigure forced to float on input line 24
 8.
 
-<./calculo/sage0506.png, id=1116, 501.875pt x 501.875pt>
+<./calculo/sage0506.png, id=1117, 501.875pt x 501.875pt>
 File: ./calculo/sage0506.png Graphic file (type png)
 <use ./calculo/sage0506.png>
 Package pdftex.def Info: ./calculo/sage0506.png  used on input line 255.
@@ -1931,7 +1931,7 @@ Package wrapfig Warning: Collision between wrapping environments on input line
 Package wrapfig Warning: wrapfigure used inside a conflicting environment on in
 put line 278.
 
-<./calculo/sage0507.png, id=1123, 563.706pt x 419.8887pt>
+<./calculo/sage0507.png, id=1124, 563.706pt x 419.8887pt>
 File: ./calculo/sage0507.png Graphic file (type png)
 <use ./calculo/sage0507.png>
 Package pdftex.def Info: ./calculo/sage0507.png  used on input line 280.
@@ -1949,7 +1949,7 @@ Package wrapfig Warning: Stationary wrapfigure forced to float on input line 28
 Package wrapfig Warning: Stationary wrapfigure forced to float on input line 28
 8.
 
-<./calculo/sage0508.png, id=1124, 501.875pt x 501.875pt>
+<./calculo/sage0508.png, id=1125, 501.875pt x 501.875pt>
 File: ./calculo/sage0508.png Graphic file (type png)
 <use ./calculo/sage0508.png>
 Package pdftex.def Info: ./calculo/sage0508.png  used on input line 296.
@@ -1958,7 +1958,7 @@ Package pdftex.def Info: ./calculo/sage0508.png  used on input line 296.
 Package wrapfig Warning: Collision between wrapping environments on input line 
 306.
 
-<./calculo/fig3008.png, id=1125, 782.17218pt x 325.215pt>
+<./calculo/fig3008.png, id=1126, 782.17218pt x 325.215pt>
 File: ./calculo/fig3008.png Graphic file (type png)
 <use ./calculo/fig3008.png>
 Package pdftex.def Info: ./calculo/fig3008.png  used on input line 308.
@@ -1972,7 +1972,7 @@ Overfull \hbox (25.94493pt too wide) in paragraph at lines 314--315
 Package wrapfig Warning: wrapfigure used inside a conflicting environment on in
 put line 329.
 
-<./calculo/fig3009.png, id=1133, 817.55438pt x 346.29375pt>
+<./calculo/fig3009.png, id=1134, 817.55438pt x 346.29375pt>
 File: ./calculo/fig3009.png Graphic file (type png)
 <use ./calculo/fig3009.png>
 Package pdftex.def Info: ./calculo/fig3009.png  used on input line 331.
@@ -1987,16 +1987,16 @@ Package wrapfig Warning: Stationary wrapfigure forced to float on input line 33
 ]
 Cap\'{\i }tulo 3.
 (curvas_parametrizadas.tex [63]
-Overfull \hbox (6.31096pt too wide) in paragraph at lines 90--91
-[][][]\T1/qbk/b/n/10 Problema Re-suel-to 3.4. [][]\T1/qbk/m/it/10 En-cuen-tre $
-[]\OML/lmm/m/it/10 D[]y$[] \T1/qbk/m/it/10 y $[]\OML/lmm/m/it/10 D[]y$[] \T1/qb
-k/m/it/10 si $[]\OML/lmm/m/it/10 x \OT1/zplm/m/n/10 = \OML/lmm/m/it/10 e[] []\O
-T1/zplm/m/n/10 (\OML/lmm/m/it/10 t\OT1/zplm/m/n/10 )\OT1/lmr/m/n/10 , \OML/lmm/
-m/it/10 y \OT1/zplm/m/n/10 = 
+Overfull \hbox (16.31094pt too wide) in paragraph at lines 90--91
+[][][]\T1/qbk/b/n/10 Problema Re-suel-to 3.1.4. [][]\T1/qbk/m/it/10 En-cuen-tre
+ $[]\OML/lmm/m/it/10 D[]y$[] \T1/qbk/m/it/10 y $[]\OML/lmm/m/it/10 D[]y$[] \T1/
+qbk/m/it/10 si $[]\OML/lmm/m/it/10 x \OT1/zplm/m/n/10 = \OML/lmm/m/it/10 e[] []
+\OT1/zplm/m/n/10 (\OML/lmm/m/it/10 t\OT1/zplm/m/n/10 )\OT1/lmr/m/n/10 , \OML/lm
+m/m/it/10 y \OT1/zplm/m/n/10 = 
  []
 
 [64]) (derivadas_parciales.tex [65] [66]
-<./cvv/cvv04.png, id=1266, 476.78125pt x 476.78125pt>
+<./cvv/cvv04.png, id=1267, 476.78125pt x 476.78125pt>
 File: ./cvv/cvv04.png Graphic file (type png)
 <use ./cvv/cvv04.png>
 Package pdftex.def Info: ./cvv/cvv04.png  used on input line 184.
@@ -2007,7 +2007,7 @@ Overfull \hbox (158.64925pt too wide) in paragraph at lines 190--191
 []http://sagecell.sagemath.org/?q=wdxppk[][]  
  []
 
-<./cvv/cvv05.png, id=1268, 501.875pt x 501.875pt>
+<./cvv/cvv05.png, id=1269, 501.875pt x 501.875pt>
 File: ./cvv/cvv05.png Graphic file (type png)
 <use ./cvv/cvv05.png>
 Package pdftex.def Info: ./cvv/cvv05.png  used on input line 197.
@@ -2018,29 +2018,29 @@ Overfull \hbox (164.39922pt too wide) in paragraph at lines 202--204
 [][]http://sagecell.sagemath.org/?q=butszu[][]  
  []
 
-<./cvv/cvv06.png, id=1270, 493.6041pt x 423.5022pt>
+<./cvv/cvv06.png, id=1271, 493.6041pt x 423.5022pt>
 File: ./cvv/cvv06.png Graphic file (type png)
 <use ./cvv/cvv06.png>
 Package pdftex.def Info: ./cvv/cvv06.png  used on input line 211.
 (pdftex.def)             Requested size: 165.81218pt x 142.26378pt.
 [67 <./cvv/cvv04.png (PNG copy)> <./cvv/cvv05.png (PNG copy)>]
-<./cvv/cvv07.png, id=1279, 476.78125pt x 476.78125pt>
+<./cvv/cvv07.png, id=1280, 476.78125pt x 476.78125pt>
 File: ./cvv/cvv07.png Graphic file (type png)
 <use ./cvv/cvv07.png>
 Package pdftex.def Info: ./cvv/cvv07.png  used on input line 236.
 (pdftex.def)             Requested size: 142.26431pt x 142.26378pt.
-<./cvv/cvv08.png, id=1281, 513.8397pt x 423.5022pt>
+<./cvv/cvv08.png, id=1282, 513.8397pt x 423.5022pt>
 File: ./cvv/cvv08.png Graphic file (type png)
 <use ./cvv/cvv08.png>
 Package pdftex.def Info: ./cvv/cvv08.png  used on input line 253.
 (pdftex.def)             Requested size: 172.60976pt x 142.26378pt.
  [68 <./cvv/cvv06.png> <./cvv/cvv07.png (PNG copy)>]
-Overfull \hbox (37.22824pt too wide) in paragraph at lines 299--300
-[][][]\T1/qbk/b/n/10 ObservaciÛn 3.3. [][]\T1/qbk/m/it/10 Si las de-ri-va-das p
-ar-cia-les mix-tas $[]\OML/lmm/m/it/10 @[]f\OT1/zplm/m/n/10 (\OML/lmm/m/it/10 x
-\OT1/lmr/m/n/10 , \OML/lmm/m/it/10 y\OT1/zplm/m/n/10 )\OT1/lmr/m/n/10 ,  \OML/l
-mm/m/it/10 @[]f\OT1/zplm/m/n/10 (\OML/lmm/m/it/10 x\OT1/lmr/m/n/10 , \OML/lmm/m
-/it/10 y\OT1/zplm/m/n/10 )$[] 
+Overfull \hbox (47.22823pt too wide) in paragraph at lines 299--300
+[][][]\T1/qbk/b/n/10 ObservaciÛn 3.2.3. [][]\T1/qbk/m/it/10 Si las de-ri-va-das
+ par-cia-les mix-tas $[]\OML/lmm/m/it/10 @[]f\OT1/zplm/m/n/10 (\OML/lmm/m/it/10
+ x\OT1/lmr/m/n/10 , \OML/lmm/m/it/10 y\OT1/zplm/m/n/10 )\OT1/lmr/m/n/10 ,  \OML
+/lmm/m/it/10 @[]f\OT1/zplm/m/n/10 (\OML/lmm/m/it/10 x\OT1/lmr/m/n/10 , \OML/lmm
+/m/it/10 y\OT1/zplm/m/n/10 )$[] 
  []
 
 
@@ -2082,48 +2082,51 @@ Package rerunfilecheck Info: File `[C√ÅLCULO].out' has not changed.
 (rerunfilecheck)             Checksum: EE4097F38474D344AFD27FCE406506E6;3992.
  ) 
 Here is how much of TeX's memory you used:
- 31375 strings out of 478927
- 570970 string characters out of 2852535
- 884671 words of memory out of 3000000
- 47678 multiletter control sequences out of 15000+600000
+ 31380 strings out of 478927
+ 571372 string characters out of 2852535
+ 884870 words of memory out of 3000000
+ 47680 multiletter control sequences out of 15000+600000
  547978 words of font info for 161 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,17n,97p,968b,799s stack positions out of 5000i,500n,10000p,200000b,80000s
-{C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.en
-c}{C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.en
-c}{C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C
-:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Us
-ers/julih/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}{C:/Users/j
-ulih/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ec.enc}{C:/Users/
-julih/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/
-julih/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ec-sc.enc}{C:/Us
-ers/julih/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc}<C:/
-Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.
-pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/f
-plmbb.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/math
-pazo/fplmr.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/lm/lmex10.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/lm/lmmi10.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/lm/lmmi6.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-lm/lmmi8.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/l
-m/lmr10.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm
-/lmr6.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/l
-mr8.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lms
-s12.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lms
-s17.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lms
-y10.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lms
-y6.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy
-8.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt1
-0.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtti
-10.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyr
-e/qbkb.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex
--gyre/qbkbi.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/publi
-c/tex-gyre/qbkr.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/tex-gyre/qbkri.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/urw/palatino/uplr8a.pfb>
-Output written on [C√ÅLCULO].pdf (71 pages, 2845739 bytes).
+pdfTeX warning (dest): name{subsection.1.2.3} has been referenced but does no
+t exist, replaced by a fixed one
+
+{C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}
+{C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}
+{C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/
+Users/julih/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/User
+s/julih/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}{C:/Users/jul
+ih/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ec.enc}{C:/Users/ju
+lih/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/ju
+lih/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ec-sc.enc}{C:/User
+s/julih/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts1.enc}<C:/Us
+ers/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pf
+b><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpazo/fpl
+mbb.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/mathpa
+zo/fplmr.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/l
+m/lmex10.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/l
+m/lmmi10.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/l
+m/lmmi6.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm
+/lmmi8.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/
+lmr10.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/l
+mr6.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr
+8.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss1
+2.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss1
+7.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy1
+0.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy6
+.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.
+pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.
+pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtti10
+.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gyre/
+qbkb.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-g
+yre/qbkbi.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+tex-gyre/qbkr.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/tex-gyre/qbkri.pfb><C:/Users/julih/AppData/Local/Programs/MiKTeX/fonts/type
+1/urw/palatino/uplr8a.pfb>
+Output written on [C√ÅLCULO].pdf (71 pages, 2846372 bytes).
 PDF statistics:
- 1592 PDF objects out of 1728 (max. 8388607)
- 718 named destinations out of 1000 (max. 500000)
+ 1595 PDF objects out of 1728 (max. 8388607)
+ 721 named destinations out of 1000 (max. 500000)
  3005 words of extra memory for PDF output out of 10000 (max. 10000000)
 

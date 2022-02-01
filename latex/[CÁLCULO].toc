@@ -6,9 +6,7 @@
 \contentsline {subsection}{\numberline {1.1.3}Continuidad}{9}{subsection.1.1.3}%
 \contentsline {section}{\numberline {1.2}Derivadas}{10}{section.1.2}%
 \contentsline {subsection}{\numberline {1.2.1}Primeras definiciones}{10}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Interpretación geométrica}{10}{subsection.1.2.2}%
-\contentsline {subsection}{\numberline {1.2.3}Relación con continuidad}{11}{subsection.1.2.3}%
-\contentsline {subsection}{\numberline {1.2.4}Fórmulas de derivación}{11}{subsection.1.2.4}%
+\contentsline {subsection}{\numberline {1.2.2}Fórmulas de derivación}{11}{subsection.1.2.2}%
 \contentsline {section}{\numberline {1.3}Derivación implícita}{12}{section.1.3}%
 \contentsline {section}{\numberline {1.4}Derivación logarítmica}{14}{section.1.4}%
 \contentsline {section}{\numberline {1.5}Linealización}{16}{section.1.5}%
@@ -29,17 +27,17 @@
 \contentsline {subsection}{\numberline {2.2.5}Propiedades: Linealidad}{36}{subsection.2.2.5}%
 \contentsline {subsection}{\numberline {2.2.6}Propiedades: Límites}{36}{subsection.2.2.6}%
 \contentsline {subsection}{\numberline {2.2.7}Ejemplos Resueltos}{36}{subsection.2.2.7}%
-\contentsline {section}{\numberline {2.3}El Teorema Fundamental del Cálculo}{36}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Valor promedio de una función}{36}{subsection.2.3.1}%
+\contentsline {section}{\numberline {2.3}El Teorema Fundamental del Cálculo}{37}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Valor promedio de una función}{37}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}Valor promedio de una función}{37}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Enunciado del T.F.C}{37}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Ejemplos Resueltos}{38}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.3}Enunciado del T.F.C}{38}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Ejemplos Resueltos}{39}{subsection.2.3.4}%
 \contentsline {section}{\numberline {2.4}Integraci\'on por partes}{40}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}Ejemplos Resueltos}{41}{subsection.2.4.1}%
 \contentsline {section}{\numberline {2.5}Fracciones parciales}{42}{section.2.5}%
 \contentsline {subsection}{\numberline {2.5.1}Método de Fracciones Parciales}{43}{subsection.2.5.1}%
 \contentsline {subsection}{\numberline {2.5.2}Caso I. $D(x)$ es producto de factores lineales distintos}{43}{subsection.2.5.2}%
-\contentsline {subsection}{\numberline {2.5.3}Regla General para Caso 1}{43}{subsection.2.5.3}%
+\contentsline {subsection}{\numberline {2.5.3}Regla General para Caso 1}{44}{subsection.2.5.3}%
 \contentsline {subsection}{\numberline {2.5.4}Caso 2. $D(x)$ es producto de factores lineales repetidos.}{44}{subsection.2.5.4}%
 \contentsline {subsection}{\numberline {2.5.5}Regla General para el Caso 2.}{44}{subsection.2.5.5}%
 \contentsline {subsection}{\numberline {2.5.6}Caso 3. Factores cuadráticos irreducibles distintos, y lineales repetidos}{44}{subsection.2.5.6}%
