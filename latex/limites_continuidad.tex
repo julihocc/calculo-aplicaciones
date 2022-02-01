@@ -56,18 +56,18 @@ Sin embargo, $ x $ puede tender a $ c $ en dos direcciones:
 \begin{definicion}
 
 	Diremos que la función tiene un \emph{límite $L$ cuando $x$ aproxima $a$} si para cada $\epsilon >0$, podemos encontrar $\delta >0$ tal que
-	\begin{align*}
+	\begin{align}
 		\abs{f(x)-l} < \epsilon
-	\end{align*}
+	\end{align}
 	siempre que
-	\begin{align*}
+	\begin{align}
 		0 < \abs{x-a} < \delta.
-	\end{align*}
+	\end{align}
 
  En ese caso, escribimos
-\begin{align*}
+\begin{align}
 	\lim_{x \to a} f(x) = L
-\end{align*}
+\end{align}
 \end{definicion}
 
 
@@ -92,28 +92,28 @@ Sin embargo, $ x $ puede tender a $ c $ en dos direcciones:
 
 \begin{resuelto}
 	Demostrar que si $\lim_{x\to a}f_{1}(x)=l_{1}$ y $\lim_{x\to a}f_{2}(x)=l_{2}$, entonces
-	\begin{align*}
+	\begin{align}
 		\lim_{x\to a}\left( f_{1}(x)+f_{2}(x) \right)=l_{1}+l_{2}
-	\end{align*}
+	\end{align}
 \end{resuelto}
 
 
 \subsection{Continuidad}
 
   Diremos que una función es \emph{continua en el punto $x=a$} si
-  \begin{align*}
+  \begin{align}
    \lim_{x\to a} f(x)=f(a)
-   \end{align*}
+   \end{align}
 
   \begin{resuelto}
    Verifica que $f(x)=x^{2}-4x+8$ es continua en $x=1$, pero que
-   \begin{align*}
+   \begin{align}
    f(x)=
     \begin{cases}
 \dfrac{x^2-4}{x-2}& x\neq 2\\
 0 & x= 2
 \end{cases}
-    \end{align*}
+    \end{align}
     es \emph{discontinua} en $x=2$.    En ese caso, decimos que $x=2$ es una \emph{discontinuidad}.
   \end{resuelto}
 
